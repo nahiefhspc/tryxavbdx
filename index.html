@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LONDETISHUN</title>
+    <link rel="icon" href="https://i.ibb.co/yFXqs3wZ/x.jpg" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #7DDAA1;
+            padding-top: 70px;
+        }
+        .header {
+            background-color: #040720;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        @media (max-width: 600px) {
+            .header {
+                font-size: 18px;
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .header {
+                font-size: 14px;
+                padding: 8px;
+            }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+         .circle-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 20px auto;
+            position: relative;
+        }
+
+        .circle-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        .card { position: relative; border: 1px solid #ccc; border-radius: 20px; margin: 20px; padding: 30px; background-color: #fff; cursor: pointer; font-size: 20px; font-weight: bold; transition: background-color 0.3s, transform 0.3s; border-left: 6px solid #FFFF02; }
+
+        .second-card { font-size: 20px; padding: 25px; width: 75%; margin: 20px auto; border-radius: 10px; border-left: 6px solid #FF5733; }
+         
+       .third-card { font-size: 20px; padding: 25px; width: 75%; margin: 20px auto; border-radius: 10px; border-left: 6px solid #FF5733; }
+
+        .card svg { position: absolute; top: 50%; right: 20px; transform: translateY(-50%); fill: #FFFF02; }
+
+        .second-card svg { fill: #FF5733; }
+        .third-card svg { fill: #FF5733; }
+        
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(113, 51, 255, 0.5), 0 6px 15px rgba(113, 51, 255, 0.3);
+        }
+
+       .second-card:hover {
+           transform: translateY(-5px);
+           box-shadow: 0 4px 10px rgba(255, 87, 51, 0.5), 0 6px 15px rgba(255, 87, 51, 0.3);
+        }
+        
+      .third-card:hover {
+           transform: translateY(-5px);
+           box-shadow: 0 4px 10px rgba(255, 87, 51, 0.5), 0 6px 15px rgba(255, 87, 51, 0.3);
+        }
+        
+
+        .subcards {
+            display: none;
+            padding-left: 20px;
+        }
+
+       .subcard { position: relative; border: 1px solid #ddd; border-radius: 5px; margin: 10px 0; padding: 10px; background-color: #fff; cursor: pointer; font-size: 15px; font-weight: bold; transition: background-color 1s, transform 1s; border-left: 6px solid #00FFFF; }
+
+       .subcard svg {
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            fill: #00FFFF;
+            opacity: 0;
+            transition: opacity 0.3s;
+       }
+
+       .subcard:hover svg {
+            opacity: 1;
+       }
+
+       .subcard:hover {
+           transform: translateY(-5px);
+           box-shadow: 0 4px 10px rgba(0, 255, 255, 0.5), 0 6px 15px rgba(0, 255, 255, 0.3);
+       }
+
+      .button-container {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          z-index: 1000;
+      }
+
+      .btn {
+          display: flex;
+          align-items: center;
+          background-color: #05a044;
+          color: #fff;
+          border: none;
+          border-radius: 25px;
+          padding: 10px 20px;
+          font-size: 16px;
+          font-weight: bold;
+          cursor: pointer;
+          transition: background-color 0.3s, transform 0.3s;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+          text-decoration: none;
+      }
+
+      .btn svg {
+          margin-right: 10px;
+      }
+
+      .btn:hover {
+          background-color: #05a044;
+          transform: translateY(-3px);
+      }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+         <marquee behavior="alternate" direction="left" scrollamount="2" width="100%" height="30" onmouseover="this.stop()" onmouseout="this.start()" loop="10000" style="animation: slide 5s linear infinite alternate; font-size: 2em; color: yellow;">By HACKHEIST 😈</marquee>
+    </div>
+	<h2 id="subject-title" class="title">⋆⋇ 𝗟𝗢𝗡𝗗𝗘𝗧𝗜𝗦𝗛𝗨𝗡 ⋇⋆</h2>
+
+  <p style="color:#100916; font-size:16px;">𝗦𝗰𝗿𝗼𝗹𝗹 𝗗𝗼𝘄𝗻 𝗳𝗼𝗿 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗮𝗻𝗱 𝗳𝗼𝗿 𝗖𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁 👇👇</p>
+</div>
+ <div style="display: flex; justify-content: center; height: 8vh;">
+  <button style="background-color:#6F0047; color:white; padding:15px 40px; font-size:24px; border-radius: 40px;"><a href="https://yashyasag.github.io/hiddens_officials" style="color:white; text-decoration:none;">𝗢𝘂𝗿 𝗠𝗔𝗜𝗡 𝗪𝗲𝗯𝘀𝗶𝘁𝗲</a></button>
+</div>
+    <div id="cards-container">
+         <!-- Cards div through JS -->
+    </div>
+
+    <div class="button-container">
+         <a href="https://t.me/HIDDEN_OFFICIALS_5/3" class="btn" target="_blank" rel="noopener noreferrer">
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+          </svg>
+          <span>JOiN BACKUP</span>
+       </a>
+    </div>
+<script>
+const firstcardsData = [
+         {
+        text: '𝐍𝐨𝐫𝐦𝐚𝐥 𝐋𝐚𝐧𝐞 (𝐃𝐫𝐨𝐩𝐩𝐞𝐫) ',
+        secondcards: [
+            {
+                text: 'Homework planner',
+                subcards: [
+                    { text: 'Homework planner',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxMzEyNzQ3MDUzNzE1MjgtNDEzMTI3NDcwNTM3MTUyOA'}
+                ]
+            },
+            {
+                text: 'Physics',
+                subcards: [
+                    { text: 'Mathematical Tools',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMyMjQwMTgzMDkyNjM0ODgtMzI0MjA2MzE4Nzg2MDExMg'},
+{ text: 'Rectilinear Motion',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMyNDMwNjU2ODExMTU0ODAtMzI0OTA4MDY0MDY0NzY4OA'},
+{ text: 'Projectile Motion',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMyNTAwODMxMzM5MDMwNTYtMzI1NTA5NTYwMDE3OTg5Ng'},
+{ text: 'Relative Motion',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMyNTYwOTgwOTM0MzUyNjQtMzI2MzExNTU0NjIyMjg0MA'},
+{ text: 'Geometrical Optics',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMyNjQxMTgwMzk0NzgyMDgtMzI4NDE2NzkwNDU4NTU2OA'},
+{ text: 'NLM',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMyODUxNzAzOTc4NDA5MzYtMzI5NTE5NTMzMDM5NDYxNg'},
+{ text: 'Friction',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMyOTYxOTc4MjM2NDk5ODQtMzMwMzIxNTI3NjQzNzU2MA'},
+{ text: 'Work Power Energy',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMzMDQyMTc3Njk2OTI5MjgtMzMxMjIzNzcxNTczNTg3Mg'},
+{ text: 'Circular Motion',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMzMTMyNDAyMDg5OTEyNDAtMzMyMjI2MjY0ODI4OTU1Mg'},
+{ text: 'Centre of Mass',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMzMjMyNjUxNDE1NDQ5MjAtMzMzNTI5NTA2MDYwOTMzNg'},
+{ text: 'Rotation',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMzMzYyOTc1NTM4NjQ3MDQtMzM1MjMzNzQ0NTk1MDU5Mg'},
+{ text: 'SHM',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMzNTMzMzk5MzkyMDU5NjAtMzM2MTM1OTg4NTI0ODkwNA'},
+{ text: 'Electrostatics',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMzNjIzNjIzNzg1MDQyNzItMzM4MjQxMjI0MzYxMTYzMg'},
+{ text: 'Gravitation',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMzODM0MTQ3MzY4NjcwMDAtMzM4OTQyOTY5NjM5OTIwOA'},
+{ text: 'Current Electricity',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTMzOTA0MzIxODk2NTQ1NzYtMzQwMjQ2MjEwODcxODk5Mg'},
+{ text: 'Heat Transfer',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM0MDM0NjQ2MDE5NzQzNjAtMzQwNjQ3MjA4MTc0MDQ2NA'},
+{ text: 'Capacitance',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM0MDc0NzQ1NzQ5OTU4MzItMzQxNzQ5OTUwNzU0OTUxMg'},
+{ text: 'EMF (Magnetism)',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM0MTg1MDIwMDA4MDQ4ODAtMzQzNTU0NDM4NjE0NjEzNg'},
+{ text: 'EMI',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM0MzY1NDY4Nzk0MDE1MDQtMzQ0NjU3MTgxMTk1NTE4NA'},
+{ text: 'AC',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM0NDc1NzQzMDUyMTA1NTItMzQ1MjU4Njc3MTQ4NzM5Mg'},
+{ text: 'Modern Physics',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM0NTM1ODkyNjQ3NDI3NjAtMzQ2NzYyNDE3MDMxNzkxMg'},
+{ text: 'Nuclear Physics',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM0Njg2MjY2NjM1NzMyODAtMzQ3NDY0MTYyMzEwNTQ4OA'},
+{ text: 'KTG Thermodynamics',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM0NzU2NDQxMTYzNjA4NTYtMzQ4NTY2OTA0ODkxNDUzNg'},
+{ text: 'Fluid Mechanics',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM0ODY2NzE1NDIxNjk5MDQtMzQ5MzY4ODk5NDk1NzQ4MA'},
+{ text: 'Elasticity & Viscosity',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM0OTQ2OTE0ODgyMTI4NDgtMzQ5ODcwMTQ2MTIzNDMyMA'},
+{ text: 'Surface Tension',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM0OTk3MDM5NTQ0ODk2ODgtMzUwMzcxMzkyNzUxMTE2MA'},
+{ text: 'Thermal Expansion',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM1MDQ3MTY0MjA3NjY1MjgtMzUwNzcyMzkwMDUzMjYzMg'},
+{ text: 'Wave of String',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM1MDg3MjYzOTM3ODgwMDAtMzUxNTc0Mzg0NjU3NTU3Ng'},
+{ text: 'Sound Waves',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM1MTY3NDYzMzk4MzA5NDQtMzUyMzc2Mzc5MjYxODUyMA'},
+{ text: 'Wave Optics',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM1MjQ3NjYyODU4NzM4ODgtMzUzMTc4MzczODY2MTQ2NA'},
+{ text: 'Semiconductor',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM1MzI3ODYyMzE5MTY4MzItMzUzODgwMTE5MTQ0OTA0MA'},
+{ text: 'Communication System',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM1Mzk4MDM2ODQ3MDQ0MDgtMzU0MTgwODY3MTIxNTE0NA'},
+{ text: 'Errors & Experiment',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM1NDI4MTExNjQ0NzA1MTItMzU0OTgyODYxNzI1ODA4OA'}
+             ]
+            },
+            {
+                text: 'Physical / Inorganic',
+                subcards: [
+                    { text: 'Mole Concept',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM1NTA4MzExMTA1MTM0NTYtMzU1Nzg0ODU2MzMwMTAzMg'},
+{ text: 'Quantum Mechanical Model',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM1NTg4NTEwNTY1NTY0MDAtMzU2Mzg2MzUyMjgzMzI0MA'},
+{ text: 'Periodic Properties',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM1NjQ4NjYwMTYwODg2MDgtMzU3MDg4MDk3NTYyMDgxNg'},
+{ text: 'Real Gas',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM1NzE4ODM0Njg4NzYxODQtMzU3NDg5MDk0ODY0MjI4OA'},
+{ text: 'Chemical Bonding',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM1NzU4OTM0NDE4OTc2NTYtMzU4ODkyNTg1NDIxNzQ0MA'},
+{ text: 'Chemical & Ionic Equilibrium',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM1ODk5MjgzNDc0NzI4MDgtMzYwNzk3MzIyNjA2OTQzMg'},
+{ text: 'Coordination Compounds',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM2MDg5NzU3MTkzMjQ4MDAtMzYxOTAwMDY1MTg3ODQ4MA'},
+{ text: 'Electrochemistry',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM2MjAwMDMxNDUxMzM4NDgtMzYzMDAyODA3NzY4NzUyOA'},
+{ text: 'Metallurgy',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM2MzEwMzA1NzA5NDI4OTYtMzYzNjA0MzAzNzIxOTczNg'},
+{ text: 'Qualitative Analysis (Anion)',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM2MzcwNDU1MzA0NzUxMDQtMzY0NDA2Mjk4MzI2MjY4MA'},
+{ text: 'P Block',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM2NDUwNjU0NzY1MTgwNDgtMzY0ODA3Mjk1NjI4NDE1Mg'},
+{ text: 'Chemical Kinetics',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM2NDkwNzU0NDk1Mzk1MjAtMzY1NjA5MjkwMjMyNzA5Ng'},
+{ text: 'Qualitative Analysis (Cation)',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM2NTcwOTUzOTU1ODI0NjQtMzY2MTEwNTM2ODYwMzkzNg'},
+{ text: 'Liquid Solutions',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM2NjIxMDc4NjE4NTkzMDQtMzY2OTEyNTMxNDY0Njg4MA'},
+{ text: 'Surface Chemistry & Pblock',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM2NzAxMjc4MDc5MDIyNDgtMzY4MDE1Mjc0MDQ1NTkyOA'},
+{ text: 'S Block',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM2ODExNTUyMzM3MTEyOTYtMzY4NDE2MjcxMzQ3NzQwMA'},
+{ text: 'Solid State',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM2ODUxNjUyMDY3MzI3NjgtMzY5MjE4MjY1OTUyMDM0NA'},
+{ text: 'Thermodynamics & Thermochemistry',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM2OTMxODUxNTI3NzU3MTItMzcwNjIxNzU2NTA5NTQ5Ng'},
+{ text: 'Boron & Carbon Family',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM3MDcyMjAwNTgzNTA4NjQtMzcxMDIyNzUzODExNjk2OA'},
+{ text: 'Redox Reaction',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM3MTEyMzAwMzEzNzIzMzYtMzcxNjI0MjQ5NzY0OTE3Ng'},
+{ text: 'DF Block',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM3MTcyNDQ5OTA5MDQ1NDQtMzcyMjI1NzQ1NzE4MTM4NA'},
+{ text: 'Atomic Structure (Optional)',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM3MjMyNTk5NTA0MzY3NTItMzc0MDMwMjMzNTc3ODAwOA'},
+{ text: 'Gaseous State (Optional)',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM3NDEzMDQ4MjkwMzMzNzYtMzc1MTMyOTc2MTU4NzA1Ng'}
+                ]
+            },
+{
+                text: 'Organic',
+                subcards: [
+                   { text: 'IUPAC',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM3NTMzMzQ3NDgwOTc3OTItMzc2MDM1MjIwMDg4NTM2OA'},
+{ text: 'Structure Identification',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM3NjEzNTQ2OTQxNDA3MzYtMzc2ODM3MjE0NjkyODMxMg'},
+{ text: 'GOC 1',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM3NjkzNzQ2NDAxODM2ODAtMzc3NzM5NDU4NjIyNjYyNA'},
+{ text: 'GOC 2',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM3NzgzOTcwNzk0ODE5OTItMzc4NzQxOTUxODc4MDMwNA'},
+{ text: 'Stereoisomerism',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM3ODg0MjIwMTIwMzU2NzItMzgwMTQ1NDQyNDM1NTQ1Ng'},
+{ text: 'ORM 1',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM4MDI0NTY5MTc2MTA4MjQtMzgwODQ3MTg3NzE0MzAzMg'},
+{ text: 'ORM 2',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM4MDk0NzQzNzAzOTg0MDAtMzgxODQ5NjgwOTY5NjcxMg'},
+{ text: 'Reduction Oxidation',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM4MTk0OTkzMDI5NTIwODAtMzgyNjUxNjc1NTczOTY1Ng'},
+{ text: 'ORM 3',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM4Mjc1MTkyNDg5OTUwMjQtMzgzNTUzOTE5NTAzNzk2OA'},
+{ text: 'ORM 4',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM4MzY1NDE2ODgyOTMzMzYtMzgyNjUxNjc1NTczOTY1Ng'},
+{ text: 'Aromatic Compounds',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM4NDE1NTQxNTQ1NzAxNzYtMzg0NzU2OTExNDEwMjM4NA'},
+{ text: 'Carbonyl & Carboxylic Acid',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM4NDg1NzE2MDczNTc3NTItMzg1NDU4NjU2Njg4OTk2MA'},
+{ text: 'Biomolecules',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM4NTU1ODkwNjAxNDUzMjgtMzg1OTU5OTAzMzE2NjgwMA'},
+{ text: 'Polymer',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM4NjA2MDE1MjY0MjIxNjgtMzg2MzYwOTAwNjE4ODI3Mg'},
+{ text: 'Chemistry in Everyday Life',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM4NjQ2MTE0OTk0NDM2NDAtMzg2NzYxODk3OTIwOTc0NA'}
+                 ]
+              },
+{
+                text: 'Maths',
+                subcards: [
+                   { text: 'Sets',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM4Njk2MjM5NjU3MjA0ODAtMzg3MjYzMTQ0NTQ4NjU4NA'},
+{ text: 'Fundamentals',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM4NzM2MzM5Mzg3NDE5NTItMzg4NzY2ODg0NDMxNzEwNA'},
+{ text: 'Quadratic Equation',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM4ODg2NzEzMzc1NzI0NzItMzg5NjY5MTI4MzYxNTQxNg'},
+{ text: 'Relation Function',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM4OTc2OTM3NzY4NzA3ODQtMzkxNjc0MTE0ODcyMjc3Ng'},
+{ text: 'ITF',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM5MTc3NDM2NDE5NzgxNDQtMzkyMjc1NjEwODI1NDk4NA'},
+{ text: 'Statistics',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM5MjM3NTg2MDE1MTAzNTItMzkyNzc2ODU3NDUzMTgyNA'},
+{ text: 'Sequence Series',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM5Mjg3NzEwNjc3ODcxOTItMzkzNjc5MTAxMzgzMDEzNg'},
+{ text: 'Matrices Determinants',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM5Mzc3OTM1MDcwODU1MDQtMzk0OTgyMzQyNjE0OTkyMA'},
+{ text: 'Straight Lines',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM5NTA4MjU5MTk0MDUyODgtMzk2MDg1MDg1MTk1ODk2OA'},
+{ text: 'Circle',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM5NjE4NTMzNDUyMTQzMzYtMzk3MTg3ODI3Nzc2ODAxNg'},
+{ text: 'Limit Continuity Differentiability',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM5NzI4ODA3NzEwMjMzODQtMzk4NzkxODE2OTg1MzkwNA'},
+{ text: 'MOD',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM5ODg5MjA2NjMxMDkyNzItMzk5NDkzNTYyMjY0MTQ4MA'},
+{ text: 'AOD',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTM5OTU5MzgxMTU4OTY4NDgtNDAxMTk3ODAwNzk4MjczNg'},
+{ text: 'Mathematical Reasoning',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQwMTI5ODA1MDEyMzgxMDQtNDAxNTk4Nzk4MTAwNDIwOA'},
+{ text: 'Conic Section',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQwMTY5OTA0NzQyNTk1NzYtNDAzMDAyMjg4NjU3OTM2MA'},
+{ text: 'Indefinite Integration',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQwMzEwMjUzNzk4MzQ3MjgtNDA0MDA0NzgxOTEzMzA0MA'},
+{ text: 'Definite Integration',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQwNDEwNTAzMTIzODg0MDgtNDA0OTA3MDI1ODQzMTM1Mg'},
+{ text: 'Area Under Curve',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQwNTAwNzI3NTE2ODY3MjAtNDA1NDA4MjcyNDcwODE5Mg'},
+{ text: 'Differential Equations',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQwNTUwODUyMTc5NjM1NjAtNDA2MjEwMjY3MDc1MTEzNg'},
+{ text: 'Vectors 3D',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQwNjMxMDUxNjQwMDY1MDQtNDA3ODE0MjU2MjgzNzAyNA'},
+{ text: 'Complex Numbers',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQwNzkxNDUwNTYwOTIzOTItNDA4OTE2OTk4ODY0NjA3Mg'},
+{ text: 'SOT',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQwOTAxNzI0ODE5MDE0NDAtNDA5NzE4OTkzNDY4OTAxNg'},
+{ text: 'Binomial Theorem',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQwOTgxOTI0Mjc5NDQzODQtNDEwOTIxOTg1Mzc1MzQzMg'},
+{ text: 'PnC',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxMTAyMjIzNDcwMDg4MDAtNDEyMDI0NzI3OTU2MjQ4MA'},
+{ text: 'Probability',  url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxMjEyNDk3NzI4MTc4NDgtNDEyOTI2OTcxODg2MDc5Mg'}
+                 ]
+              }
+            ]
+    },
+    {
+        text: '𝐅𝐚𝐬𝐭𝐥𝐚𝐧𝐞 (𝟐𝟐-𝟐𝟑)',
+        secondcards: [
+            {
+                text: 'Homework Planner',
+                subcards: [
+                    { text: 'Homework Planner', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1MTgyMzcxMDE5NDM1NzYtNDUxOTIzOTU5NTE5ODk0NA'}
+                ]
+            },
+            {
+                text: 'Physics',
+                subcards: [
+                    { text: 'Kinematics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxMzYyODcxNzE2NDgzNjgtNDE0MTI5OTYzNzkyNTIwOA'},
+{ text: 'Geometrical Optics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxNDIzMDIxMzExODA1NzYtNDE1MDMyMjA3NzIyMzUyMA'},
+{ text: 'Laws of Motion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxNTEzMjQ1NzA0Nzg4ODgtNDE1NDMzMjA1MDI0NDk5Mg'},
+{ text: 'Friction', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxNTUzMzQ1NDM1MDAzNjAtNDE1NjMzNzAzNjc1NTcyOA'},
+{ text: 'Work Power Energy', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxNTczMzk1MzAwMTEwOTYtNDE1OTM0NDUxNjUyMTgzMg'},
+{ text: 'Circular Motion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxNjAzNDcwMDk3NzcyMDAtNDE2MzM1NDQ4OTU0MzMwNA'},
+{ text: 'Centre of Mass', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxNjQzNTY5ODI3OTg2NzItNDE2NzM2NDQ2MjU2NDc3Ng'},
+{ text: 'Rotation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxNjgzNjY5NTU4MjAxNDQtNDE3MzM3OTQyMjA5Njk4NA'},
+{ text: 'SHM', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxNzQzODE5MTUzNTIzNTItNDE3NzM4OTM5NTExODQ1Ng'},
+{ text: 'Electrostatics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxNzgzOTE4ODgzNzM4MjQtNDE4ODQxNjgyMDkyNzUwNA'},
+{ text: 'Current Electricity', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxODk0MTkzMTQxODI4NzItNDE5MzQyOTI4NzIwNDM0NA'},
+{ text: 'Heat Transfer', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxOTQ0MzE3ODA0NTk3MTItNDE5NTQzNDI3MzcxNTA4MA'},
+{ text: 'Capacitance', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQxOTY0MzY3NjY5NzA0NDgtNDE5OTQ0NDI0NjczNjU1Mg'},
+{ text: 'EMF (Magnetism)', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMDA0NDY3Mzk5OTE5MjAtNDIwNDQ1NjcxMzAxMzM5Mg'},
+{ text: 'EMI', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMDU0NTkyMDYyNjg3NjAtNDIwODQ2NjY4NjAzNDg2NA'},
+{ text: 'EMW', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMDk0NjkxNzkyOTAyMzItNDIwOTQ2OTE3OTI5MDIzMg'},
+{ text: 'AC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMTA0NzE2NzI1NDU2MDAtNDIxMTQ3NDE2NTgwMDk2OA'},
+{ text: 'Modern Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMTI0NzY2NTkwNTYzMzYtNDIxNDQ4MTY0NTU2NzA3Mg'},
+{ text: 'Nuclear Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMTU0ODQxMzg4MjI0NDAtNDIxNzQ4OTEyNTMzMzE3Ng'},
+{ text: 'Waves of String', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMTg0OTE2MTg1ODg1NDQtNDIyMDQ5NjYwNTA5OTI4MA'},
+{ text: 'Sound Waves', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMjE0OTkwOTgzNTQ2NDgtNDIyNDUwNjU3ODEyMDc1Mg'},
+{ text: 'Wave Optics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMjU1MDkwNzEzNzYxMjAtNDIyNzUxNDA1Nzg4Njg1Ng'},
+{ text: 'KTG Thermodynamics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMjg1MTY1NTExNDIyMjQtNDIzMDUyMTUzNzY1Mjk2MA'},
+{ text: 'Fluid Mechanics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMzE1MjQwMzA5MDgzMjgtNDIzMjUyNjUyNDE2MzY5Ng'},
+{ text: 'Surface Tension', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMzM1MjkwMTc0MTkwNjQtNDIzMzUyOTAxNzQxOTA2NA'},
+{ text: 'Thermal Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMzQ1MzE1MTA2NzQ0MzItNDIzNTUzNDAwMzkyOTgwMA'},
+{ text: 'Errors', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMzY1MzY0OTcxODUxNjgtNDIzNzUzODk5MDQ0MDUzNg'},
+{ text: 'Communication System', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyMzg1NDE0ODM2OTU5MDQtNDIzOTU0Mzk3Njk1MTI3Mg'},
+{ text: 'Semiconductor', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyNDA1NDY0NzAyMDY2NDAtNDI0NTU1ODkzNjQ4MzQ4MA'}
+                ]
+            },
+            {
+                text: 'Physical/Inorganic',
+                subcards: [
+                    { text: 'Mole Concept', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyNDg1NjY0MTYyNDk1ODQtNDI1MjU3NjM4OTI3MTA1Ng'},
+{ text: 'Quantum Numbers', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyNTM1Nzg4ODI1MjY0MjQtNDI1NDU4MTM3NTc4MTc5Mg'},
+{ text: 'Periodic Properties', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyNTU1ODM4NjkwMzcxNjAtNDI1NzU4ODg1NTU0Nzg5Ng'},
+{ text: 'Real Gas', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyNTg1OTEzNDg4MDMyNjQtNDI2MDU5NjMzNTMxNDAwMA'},
+{ text: 'Chemical Bonding', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyNjE1OTg4Mjg1NjkzNjgtNDI3MDYyMTI2Nzg2NzY4MA'},
+{ text: 'Chemical Equilibrium', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyNzE2MjM3NjExMjMwNDgtNDI3MzYyODc0NzYzMzc4NA'},
+{ text: 'Ionic Equilibrium', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyNzQ2MzEyNDA4ODkxNTItNDI3OTY0MzcwNzE2NTk5Mg'},
+{ text: 'Coordination Compounds', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyODA2NDYyMDA0MjEzNjAtNDI4NDY1NjE3MzQ0MjgzMg'},
+{ text: 'Electrochemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyODU2NTg2NjY2OTgyMDAtNDI5MDY3MTEzMjk3NTA0MA'},
+{ text: 'Metallurgy', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyOTE2NzM2MjYyMzA0MDgtNDI5MjY3NjExOTQ4NTc3Ng'},
+{ text: 'Qualitative Analysis Anion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyOTM2Nzg2MTI3NDExNDQtNDI5NDY4MTEwNTk5NjUxMg'},
+{ text: 'General IOC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyOTU2ODM1OTkyNTE4ODAtNDI5NjY4NjA5MjUwNzI0OA'},
+{ text: 'P Block 17 18', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyOTc2ODg1ODU3NjI2MTYtNDI5NzY4ODU4NTc2MjYxNg'},
+{ text: 'Chemical Kinetics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQyOTg2OTEwNzkwMTc5ODQtNDMwMTY5ODU1ODc4NDA4OA'},
+{ text: 'Qualitative Analysis Cation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMDI3MDEwNTIwMzk0NTYtNDMwMzcwMzU0NTI5NDgyNA'},
+{ text: 'Liquid Solutions', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMDQ3MDYwMzg1NTAxOTItNDMwNjcxMTAyNTA2MDkyOA'},
+{ text: 'Surface Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMDc3MTM1MTgzMTYyOTYtNDMwODcxNjAxMTU3MTY2NA'},
+{ text: 'Solid State', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMDk3MTg1MDQ4MjcwMzItNDMxMTcyMzQ5MTMzNzc2OA'},
+{ text: 'P Block 15-16', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMTI3MjU5ODQ1OTMxMzYtNDMxMzcyODQ3Nzg0ODUwNA'},
+{ text: 'S Block', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMTQ3MzA5NzExMDM4NzItNDMxNDczMDk3MTEwMzg3Mg'},
+{ text: 'Thermodynamics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMTU3MzM0NjQzNTkyNDAtNDMxNzczODQ1MDg2OTk3Ng'},
+{ text: 'Redox', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMTg3NDA5NDQxMjUzNDQtNDMxOTc0MzQzNzM4MDcxMg'},
+{ text: 'Thermochemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMjA3NDU5MzA2MzYwODAtNDMyMTc0ODQyMzg5MTQ0OA'},
+{ text: 'P Block 13-14', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMjI3NTA5MTcxNDY4MTYtNDMyMzc1MzQxMDQwMjE4NA'},
+{ text: 'DF Block', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMjQ3NTU5MDM2NTc1NTItNDMyNTc1ODM5NjkxMjkyMA'}
+                ]
+            },
+            {
+                text: 'Organic',
+                subcards: [
+                    { text: 'IUPAC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMjc3NjMzODM0MjM2NTYtNDMzMDc3MDg2MzE4OTc2MA'},
+{ text: 'Structural Identification', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMzE3NzMzNTY0NDUxMjgtNDMzMzc3ODM0Mjk1NTg2NA'},
+{ text: 'GOC 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMzQ3ODA4MzYyMTEyMzItNDMzNzc4ODMxNTk3NzMzNg'},
+{ text: 'GOC 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzMzg3OTA4MDkyMzI3MDQtNDM0MDc5NTc5NTc0MzQ0MA'},
+{ text: 'Stereoisomerism', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzNDE3OTgyODg5OTg4MDgtNDM0NzgxMzI0ODUzMTAxNg'},
+{ text: 'ORM 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzNDg4MTU3NDE3ODYzODQtNDM1MDgyMDcyODI5NzEyMA'},
+{ text: 'ORM 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzNTE4MjMyMjE1NTI0ODgtNDM1NDgzMDcwMTMxODU5Mg'},
+{ text: 'Oxidation Reduction', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzNTU4MzMxOTQ1NzM5NjAtNDM1NzgzODE4MTA4NDY5Ng'},
+{ text: 'OMR 3', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzNTg4NDA2NzQzNDAwNjQtNDM1OTg0MzE2NzU5NTQzMg'},
+{ text: 'ORM 4', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzNjA4NDU2NjA4NTA4MDAtNDM2MTg0ODE1NDEwNjE2OA'},
+{ text: 'Aromatic Compounds', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzNjI4NTA2NDczNjE1MzYtNDM2Mzg1MzE0MDYxNjkwNA'},
+{ text: 'Aldehyde Ketones', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzNjQ4NTU2MzM4NzIyNzItNDM2NTg1ODEyNzEyNzY0MA'},
+{ text: 'Biomolecules', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzNjY4NjA2MjAzODMwMDgtNDM2OTg2ODEwMDE0OTExMg'},
+{ text: 'Chemistry in Everyday Life', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzNzA4NzA1OTM0MDQ0ODAtNDM3MTg3MzA4NjY1OTg0OA'},
+{ text: 'Polymers', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzNzI4NzU1Nzk5MTUyMTYtNDM3Mzg3ODA3MzE3MDU4NA'},
+{ text: 'Environmental Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzNzQ4ODA1NjY0MjU5NTItNDM3NTg4MzA1OTY4MTMyMA'}
+                ]
+            },
+            {
+                text: 'Maths',
+                subcards: [
+                    { text: 'FOM', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzNzg4OTA1Mzk0NDc0MjQtNDM4NjkxMDQ4NTQ5MDM2OA'},
+{ text: 'Quadratic Equation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzODc5MTI5Nzg3NDU3MzYtNDM5MDkyMDQ1ODUxMTg0MA'},
+{ text: 'Relation Function', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQzOTE5MjI5NTE3NjcyMDgtNDQwMDk0NTM5MTA2NTUyMA'},
+{ text: 'ITF', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0MDE5NDc4ODQzMjA4ODgtNDQwMjk1MDM3NzU3NjI1Ng'},
+{ text: 'Limits', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0MDM5NTI4NzA4MzE2MjQtNDQwNjk2MDM1MDU5NzcyOA'},
+{ text: 'Statistics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0MDc5NjI4NDM4NTMwOTYtNDQwNzk2Mjg0Mzg1MzA5Ng'},
+{ text: 'Sequence Series', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0MDg5NjUzMzcxMDg0NjQtNDQxMTk3MjgxNjg3NDU2OA'},
+{ text: 'Determinants', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0MTI5NzUzMTAxMjk5MzYtNDQxMzk3NzgwMzM4NTMwNA'},
+{ text: 'Matrices', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0MTQ5ODAyOTY2NDA2NzItNDQxNzk4Nzc3NjQwNjc3Ng'},
+{ text: 'Straight Lines', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0MTg5OTAyNjk2NjIxNDQtNDQyMzAwMDI0MjY4MzYxNg'},
+{ text: 'Circle', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0MjQwMDI3MzU5Mzg5ODQtNDQyODAxMjcwODk2MDQ1Ng'},
+{ text: 'Continuity Differentiability', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0MjkwMTUyMDIyMTU4MjQtNDQzMTAyMDE4ODcyNjU2MA'},
+{ text: 'MOD', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0MzIwMjI2ODE5ODE5MjgtNDQzMzAyNTE3NTIzNzI5Ng'},
+{ text: 'AOD', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0MzQwMjc2Njg0OTI2NjQtNDQ0MjA0NzYxNDUzNTYwOA'},
+{ text: 'Mathematical Reasoning', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0NDMwNTAxMDc3OTA5NzYtNDQ0MzA1MDEwNzc5MDk3Ng'},
+{ text: 'Conic Sections', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0NDQwNTI2MDEwNDYzNDQtNDQ1MDA2NzU2MDU3ODU1Mg'},
+{ text: 'Indefinite Integration', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0NTEwNzAwNTM4MzM5MjAtNDQ1NDA3NzUzMzYwMDAyNA'},
+{ text: 'Definite Integration', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0NTUwODAwMjY4NTUzOTItNDQ1ODA4NzUwNjYyMTQ5Ng'},
+{ text: 'Area Under Curve', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0NTkwODk5OTk4NzY4NjQtNDQ2MDA5MjQ5MzEzMjIzMg'},
+{ text: 'Differential Equations', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0NjEwOTQ5ODYzODc2MDAtNDQ2NDEwMjQ2NjE1MzcwNA'},
+{ text: 'Vector 3D', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0NjUxMDQ5NTk0MDkwNzItNDQ3MjEyMjQxMjE5NjY0OA'},
+{ text: 'Complex Numbers', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0NzMxMjQ5MDU0NTIwMTYtNDQ3NzEzNDg3ODQ3MzQ4OA'},
+{ text: 'Binomial Theorem', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0NzgxMzczNzE3Mjg4NTYtNDQ4MTE0NDg1MTQ5NDk2MA'},
+{ text: 'SOT', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0ODIxNDczNDQ3NTAzMjgtNDQ4NDE1MjMzMTI2MTA2NA'},
+{ text: 'PnC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0ODUxNTQ4MjQ1MTY0MzItNDQ5MzE3NDc3MDU1OTM3Ng'},
+{ text: 'Probability', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ0OTQxNzcyNjM4MTQ3NDQtNDUwMTE5NDcxNjYwMjMyMA'}
+                 ]
+              },
+            {
+                text: 'Test series',
+                subcards: [
+                    { text: 'Fastlane Test series', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1MDMxOTk3MDMxMTMwNTYtNDUxNjIzMjExNTQzMjg0MA'}
+                 ]
+              }
+            ]
+    },
+    {
+        text: '𝐅𝐚𝐬𝐭𝐥𝐚𝐧𝐞 (𝟐𝟑-𝟐𝟒)',
+        secondcards: [
+            {
+                text: 'Physics',
+                subcards: [
+                     { text: 'Kinematics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1MjMyNDk1NjgyMjA0MTYtNDUyNzI1OTU0MTI0MTg4OA'},
+{ text: 'Geometrical Optics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1MjgyNjIwMzQ0OTcyNTYtNDUzNzI4NDQ3Mzc5NTU2OA'},
+{ text: 'Laws of Motion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1MzgyODY5NjcwNTA5MzYtNDU0MjI5Njk0MDA3MjQwOA'},
+{ text: 'Friction', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1NDMyOTk0MzMzMjc3NzYtNDU0NTMwNDQxOTgzODUxMg'},
+{ text: 'Work Power Energy', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1NDYzMDY5MTMwOTM4ODAtNDU1MDMxNjg4NjExNTM1Mg'},
+{ text: 'Circular Motion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1NTEzMTkzNzkzNzA3MjAtNDU1NDMyNjg1OTEzNjgyNA'},
+{ text: 'Centre of Mass', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1NTUzMjkzNTIzOTIxOTItNDU1ODMzNjgzMjE1ODI5Ng'},
+{ text: 'Rotation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1NTkzMzkzMjU0MTM2NjQtNDU2NjM1Njc3ODIwMTI0MA'},
+{ text: 'SHM', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1NjczNTkyNzE0NTY2MDgtNDU3MDM2Njc1MTIyMjcxMg'},
+{ text: 'Electrostatics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1NzEzNjkyNDQ0NzgwODAtNDU4MTM5NDE3NzAzMTc2MA'},
+{ text: 'Gravitation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1ODIzOTY2NzAyODcxMjgtNDU4MzM5OTE2MzU0MjQ5Ng'},
+{ text: 'Current Electricity', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1ODQ0MDE2NTY3OTc4NjQtNDU4ODQxMTYyOTgxOTMzNg'},
+{ text: 'Heat Transfer', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1ODk0MTQxMjMwNzQ3MDQtNDU5MDQxNjYxNjMzMDA3Mg'},
+{ text: 'Capacitance', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1OTE0MTkxMDk1ODU0NDAtNDU5NTQyOTA4MjYwNjkxMg'},
+{ text: 'EMF (Magnetism)', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ1OTY0MzE1NzU4NjIyODAtNDYwMTQ0NDA0MjEzOTEyMA'},
+{ text: 'EMI', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2MDI0NDY1MzUzOTQ0ODgtNDYwNTQ1NDAxNTE2MDU5Mg'},
+{ text: 'EMW', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2MDY0NTY1MDg0MTU5NjAtNDYwNjQ1NjUwODQxNTk2MA'},
+{ text: 'AC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2MDc0NTkwMDE2NzEzMjgtNDYwODQ2MTQ5NDkyNjY5Ng'},
+{ text: 'Modern Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2MDk0NjM5ODgxODIwNjQtNDYxMjQ3MTQ2Nzk0ODE2OA'},
+{ text: 'Nuclear Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2MTM0NzM5NjEyMDM1MzYtNDYxNjQ4MTQ0MDk2OTY0MA'},
+{ text: 'Waves of String', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2MTc0ODM5MzQyMjUwMDgtNDYyMDQ5MTQxMzk5MTExMg'},
+{ text: 'Sound Waves', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2MjE0OTM5MDcyNDY0ODAtNDYyNTUwMzg4MDI2Nzk1Mg'},
+{ text: 'Wave Optics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2MjY1MDYzNzM1MjMzMjAtNDYyODUxMTM2MDAzNDA1Ng'},
+{ text: 'KTG Thermodynamics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2Mjk1MTM4NTMyODk0MjQtNDYzMTUxODgzOTgwMDE2MA'},
+{ text: 'Fluid Mechanics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2MzI1MjEzMzMwNTU1MjgtNDYzMzUyMzgyNjMxMDg5Ng'},
+{ text: 'Surface Tension', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2MzQ1MjYzMTk1NjYyNjQtNDYzNTUyODgxMjgyMTYzMg'},
+{ text: 'Thermal Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2MzY1MzEzMDYwNzcwMDAtNDY0MDU0MTI3OTA5ODQ3Mg'},
+{ text: 'Errors', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2NDE1NDM3NzIzNTM4NDAtNDY0MjU0NjI2NTYwOTIwOA'},
+{ text: 'Semiconductor', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2NDM1NDg3NTg4NjQ1NzYtNDY0OTU2MzcxODM5Njc4NA'},
+{ text: 'Communication System', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2NTA1NjYyMTE2NTIxNTItNDY1MjU3MTE5ODE2Mjg4OA'}
+                ]
+            },
+            {
+                text: 'P/I Chemistry',
+                subcards: [
+                    { text: 'Mole Concept', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2NTY1ODExNzExODQzNjAtNDY2MDU5MTE0NDIwNTgzMg'},
+{ text: 'Quantum Numbers', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2NjE1OTM2Mzc0NjEyMDAtNDY2NDYwMTExNzIyNzMwNA'},
+{ text: 'Periodic Properties', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2NjU2MDM2MTA0ODI2NzItNDY2ODYxMTA5MDI0ODc3Ng'},
+{ text: 'Real Gas', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2Njk2MTM1ODM1MDQxNDQtNDY3MjYyMTA2MzI3MDI0OA'},
+{ text: 'Chemical Bonding', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2NzM2MjM1NTY1MjU2MTYtNDY4MjY0NTk5NTgyMzkyOA'},
+{ text: 'Chemical Equilibrium', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2ODM2NDg0ODkwNzkyOTYtNDY4NjY1NTk2ODg0NTQwMA'},
+{ text: 'Ionic Equilibrium', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2ODc2NTg0NjIxMDA3NjgtNDY5MjY3MDkyODM3NzYwOA'},
+{ text: 'Coordination Compounds', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ2OTM2NzM0MjE2MzI5NzYtNDY5OTY4ODM4MTE2NTE4NA'},
+{ text: 'Electrochemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3MDA2OTA4NzQ0MjA1NTItNDcwNTcwMzM0MDY5NzM5Mg'},
+{ text: 'Metallurgy', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3MDY3MDU4MzM5NTI3NjAtNDcwODcxMDgyMDQ2MzQ5Ng'},
+{ text: 'Qualitative Analysis Anion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3MDk3MTMzMTM3MTg4NjQtNDcxMjcyMDc5MzQ4NDk2OA'},
+{ text: 'General IOC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3MTM3MjMyODY3NDAzMzYtNDcxNDcyNTc3OTk5NTcwNA'},
+{ text: 'P block 17-18', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3MTU3MjgyNzMyNTEwNzItNDcxNjczMDc2NjUwNjQ0MA'},
+{ text: 'Chemical Kinetics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3MTc3MzMyNTk3NjE4MDgtNDcyMjc0NTcyNjAzODY0OA'},
+{ text: 'Liquid Solutions', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3MjM3NDgyMTkyOTQwMTYtNDcyNzc1ODE5MjMxNTQ4OA'},
+{ text: 'Surface Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3Mjg3NjA2ODU1NzA4NTYtNDcyOTc2MzE3ODgyNjIyNA'},
+{ text: 'Solid State', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3MzA3NjU2NzIwODE1OTItNDczMzc3MzE1MTg0NzY5Ng'},
+{ text: 'S Block', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3MzQ3NzU2NDUxMDMwNjQtNDczNTc3ODEzODM1ODQzMg'},
+{ text: 'Nitrogen Oxygen', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3MzY3ODA2MzE2MTM4MDAtNDczODc4NTYxODEyNDUzNg'},
+{ text: 'Thermodynamics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3Mzk3ODgxMTEzNzk5MDQtNDc0Mzc5ODA4NDQwMTM3Ng'},
+{ text: 'Thermochemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3NDQ4MDA1Nzc2NTY3NDQtNDc0NjgwNTU2NDE2NzQ4MA'},
+{ text: 'Redox', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3NDc4MDgwNTc0MjI4NDgtNDc0ODgxMDU1MDY3ODIxNg'},
+{ text: 'Boron Carbon Family', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3NDk4MTMwNDM5MzM1ODQtNDc1MDgxNTUzNzE4ODk1Mg'},
+{ text: 'DF Block', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3NTE4MTgwMzA0NDQzMjAtNDc1MzgyMzAxNjk1NTA1Ng'}
+                ]
+            },
+            {
+                text: 'Organic',
+                subcards: [
+                      { text: 'IUPAC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3NTY4MzA0OTY3MjExNjAtNDc1OTgzNzk3NjQ4NzI2NA'},
+{ text: 'Structural Identification', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3NjA4NDA0Njk3NDI2MzItNDc2NDg1MDQ0Mjc2NDEwNA'},
+{ text: 'GOC 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3NjU4NTI5MzYwMTk0NzItNDc2OTg2MjkwOTA0MDk0NA'},
+{ text: 'GOC 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3NzA4NjU0MDIyOTYzMTItNDc3NDg3NTM3NTMxNzc4NA'},
+{ text: 'Stereoisomerism', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3NzU4Nzc4Njg1NzMxNTItNDc4MTg5MjgyODEwNTM2MA'},
+{ text: 'ORM 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3ODI4OTUzMjEzNjA3MjgtNDc4NDkwMDMwNzg3MTQ2NA'},
+{ text: 'ORM 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3ODU5MDI4MDExMjY4MzItNDc4OTkxMjc3NDE0ODMwNA'},
+{ text: 'Oxidation Reduction', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3OTA5MTUyNjc0MDM2NzItNDc5MjkyMDI1MzkxNDQwOA'},
+{ text: 'OMR 3', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3OTM5MjI3NDcxNjk3NzYtNDc5NjkzMDIyNjkzNTg4MA'},
+{ text: 'Polymers', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3OTc5MzI3MjAxOTEyNDgtNDc5ODkzNTIxMzQ0NjYxNg'},
+{ text: 'ORM 4', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ3OTk5Mzc3MDY3MDE5ODQtNDgwMTk0MjY5MzIxMjcyMA'},
+{ text: 'Aromatic Compounds', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4MDI5NDUxODY0NjgwODgtNDgwNDk1MDE3Mjk3ODgyNA'},
+{ text: 'Chemistry in Everyday Life', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4MDU5NTI2NjYyMzQxOTItNDgwNjk1NTE1OTQ4OTU2MA'},
+{ text: 'Aldehyde Ketones Carboxylic', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4MDc5NTc2NTI3NDQ5MjgtNDgwOTk2MjYzOTI1NTY2NA'},
+{ text: 'Biomolecules', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4MTA5NjUxMzI1MTEwMzItNDgxMzk3MjYxMjI3NzEzNg'},
+{ text: 'Environmental Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4MTQ5NzUxMDU1MzI1MDQtNDgxNjk4MDA5MjA0MzI0MA'}
+                ]
+            },
+            {
+                text: 'Maths',
+                subcards: [
+                     { text: 'FOM', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4MTk5ODc1NzE4MDkzNDQtNDgyODAwNzUxNzg1MjI4OA'},
+{ text: 'Quadratic Equation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4MjkwMTAwMTExMDc2NTYtNDgzMjAxNzQ5MDg3Mzc2MA'},
+{ text: 'Relation Function', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4MzMwMTk5ODQxMjkxMjgtNDg0MjA0MjQyMzQyNzQ0MA'},
+{ text: 'ITF', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4NDMwNDQ5MTY2ODI4MDgtNDg0NDA0NzQwOTkzODE3Ng'},
+{ text: 'Limits', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4NDUwNDk5MDMxOTM1NDQtNDg0ODA1NzM4Mjk1OTY0OA'},
+{ text: 'Statistics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4NDkwNTk4NzYyMTUwMTYtNDg0OTA1OTg3NjIxNTAxNg'},
+{ text: 'Sequence Series', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4NTAwNjIzNjk0NzAzODQtNDg1MzA2OTg0OTIzNjQ4OA'},
+{ text: 'Determinants', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4NTQwNzIzNDI0OTE4NTYtNDg1NTA3NDgzNTc0NzIyNA'},
+{ text: 'Matrices', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4NTYwNzczMjkwMDI1OTItNDg1OTA4NDgwODc2ODY5Ng'},
+{ text: 'Straight Lines', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4NjAwODczMDIwMjQwNjQtNDg2NDA5NzI3NTA0NTUzNg'},
+{ text: 'Circle', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4NjUwOTk3NjgzMDA5MDQtNDg2OTEwOTc0MTMyMjM3Ng'},
+{ text: 'Continuity Differentiability', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4NzAxMTIyMzQ1Nzc3NDQtNDg3MzExOTcxNDM0Mzg0OA'},
+{ text: 'MOD', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4NzQxMjIyMDc1OTkyMTYtNDg3NTEyNDcwMDg1NDU4NA'},
+{ text: 'AOD', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4NzYxMjcxOTQxMDk5NTItNDg4NDE0NzE0MDE1Mjg5Ng'},
+{ text: 'Mathematical Reasoning', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4ODUxNDk2MzM0MDgyNjQtNDg4NTE0OTYzMzQwODI2NA'},
+{ text: 'Conic Sections', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4ODYxNTIxMjY2NjM2MzItNDg5MjE2NzA4NjE5NTg0MA'},
+{ text: 'Indefinite Integration', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4OTMxNjk1Nzk0NTEyMDgtNDg5NjE3NzA1OTIxNzMxMg'},
+{ text: 'Definite Integration', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ4OTcxNzk1NTI0NzI2ODAtNDkwMDE4NzAzMjIzODc4NA'},
+{ text: 'Area Under Curve', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5MDExODk1MjU0OTQxNTItNDkwMjE5MjAxODc0OTUyMA'},
+{ text: 'Differential Equations', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5MDMxOTQ1MTIwMDQ4ODgtNDkwNjIwMTk5MTc3MDk5Mg'},
+{ text: 'Vector 3D', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5MDcyMDQ0ODUwMjYzNjAtNDkxNDIyMTkzNzgxMzkzNg'},
+{ text: 'Complex Numbers', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5MTUyMjQ0MzEwNjkzMDQtNDkxOTIzNDQwNDA5MDc3Ng'},
+{ text: 'Binomial Theorem', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5MjAyMzY4OTczNDYxNDQtNDkyMzI0NDM3NzExMjI0OA'},
+{ text: 'SOT', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5MjQyNDY4NzAzNjc2MTYtNDkyNjI1MTg1Njg3ODM1Mg'},
+{ text: 'PnC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5MjcyNTQzNTAxMzM3MjAtNDkzNTI3NDI5NjE3NjY2NA'},
+{ text: 'Probability', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5MzYyNzY3ODk0MzIwMzItNDk0NDI5NjczNTQ3NDk3Ng'}
+                ]
+            }
+            ]
+    },
+{
+        text: '𝐏𝐫𝐚𝐛𝐚𝐥 𝐌𝐚𝐢𝐧𝐬 𝐁𝐚𝐭𝐜𝐡',
+        secondcards: [
+                  {
+                text: 'Physics',
+                subcards: [
+                    { text: 'Kinematics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5NDczMDQyMTUyNDEwODAtNDk1NzMyOTE0Nzc5NDc2MA'},
+{ text: 'Ray Optics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5NTgzMzE2NDEwNTAxMjgtNDk3MTM2NDA1MzM2OTkxMg'},
+{ text: 'NLM Friction', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5NzIzNjY1NDY2MjUyODAtNDk3OTM4Mzk5OTQxMjg1Ng'},
+{ text: 'WPE', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5ODAzODY0OTI2NjgyMjQtNDk4NDM5NjQ2NTY4OTY5Ng'},
+{ text: 'Circular Motion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5ODUzOTg5NTg5NDUwNjQtNDk4OTQwODkzMTk2NjUzNg'},
+{ text: 'Centre of Mass', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5OTA0MTE0MjUyMjE5MDQtNDk5NTQyMzg5MTQ5ODc0NA'},
+{ text: 'Rotation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTQ5OTY0MjYzODQ3NTQxMTItNTAwNDQ0NjMzMDc5NzA1Ng'},
+{ text: 'SHM', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUwMDU0NDg4MjQwNTI0MjQtNTAwOTQ1ODc5NzA3Mzg5Ng'},
+{ text: 'Electrostatics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUwMTA0NjEyOTAzMjkyNjQtNTAyMzQ5MzcwMjY0OTA0OA'},
+{ text: 'Gravitation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUwMjQ0OTYxOTU5MDQ0MTYtNTAyNjUwMTE4MjQxNTE1Mg'},
+{ text: 'Current Electricity Capacitor Magnetism EMI EMW AC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUwMjc1MDM2NzU2NzA1MjAtNTA2MDU4NTk1MzA5NzY2NA'},
+{ text: 'Modern Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUwNjE1ODg0NDYzNTMwMzItNTA3MTYxMzM3ODkwNjcxMg'},
+{ text: 'Elasticity Calorimetry Heat Transfer', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUwNzI2MTU4NzIxNjIwODAtNTA3MTYxMzM3ODkwNjcxMg'},
+{ text: 'Elasticity Calorimetry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUwNzI2MTU4NzIxNjIwODAtNTA3NjYyNTg0NTE4MzU1Mg'},
+{ text: 'Errors', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUwNzc2MjgzMzg0Mzg5MjAtNTA3OTYzMzMyNDk0OTY1Ng'},
+{ text: 'Fluid Mechanics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUwODA2MzU4MTgyMDUwMjQtNTA4MzY0MzI5Nzk3MTEyOA'},
+{ text: 'KTG Thermodynamics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUwODQ2NDU3OTEyMjY0OTYtNTA4OTY1ODI1NzUwMzMzNg'},
+{ text: 'Communication System', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUwOTA2NjA3NTA3NTg3MDQtNTA5NDY3MDcyMzc4MDE3Ng'},
+{ text: 'Semiconductor', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUwOTU2NzMyMTcwMzU1NDQtNTA5ODY4MDY5NjgwMTY0OA'},
+{ text: 'Sound Waves', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUwOTk2ODMxOTAwNTcwMTYtNTEwMjY5MDY2OTgyMzEyMA'},
+{ text: 'Surface Tension Viscosity', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxMDM2OTMxNjMwNzg0ODgtNTEwNDY5NTY1NjMzMzg1Ng'},
+{ text: 'Thermal Expansion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxMDU2OTgxNDk1ODkyMjQtNTExMDcxMDYxNTg2NjA2NA'},
+{ text: 'Units Dimension', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxMTE3MTMxMDkxMjE0MzItNTExMTcxMzEwOTEyMTQzMg'},
+{ text: 'Wave on String', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxMTI3MTU2MDIzNzY4MDAtNTExNjcyNTU3NTM5ODI3Mg'},
+{ text: 'Wave Optics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxMTc3MjgwNjg2NTM2NDAtNTEyMjc0MDUzNDkzMDQ4MA'}
+                ]
+            },
+{
+                text: 'Maths',
+                subcards: [
+                    { text: 'Sets', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxMjY3NTA1MDc5NTE5NTItNTEyODc1NTQ5NDQ2MjY4OA'},
+{ text: 'FOM', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxMjk3NTc5ODc3MTgwNTYtNTE0NTc5Nzg3OTgwMzk0NA'},
+{ text: 'Quadratic Equation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxNDY4MDAzNzMwNTkzMTItNTE1MDgxMDM0NjA4MDc4NA'},
+{ text: 'Relation Function', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxNTE4MTI4MzkzMzYxNTItNTE1ODgzMDI5MjEyMzcyOA'},
+{ text: 'ITF', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxNTk4MzI3ODUzNzkwOTYtNTE2ODg1NTIyNDY3NzQwOA'},
+{ text: 'Statistics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxNjk4NTc3MTc5MzI3NzYtNTE3MDg2MDIxMTE4ODE0NA'},
+{ text: 'Matrices Determinants', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxNzE4NjI3MDQ0NDM1MTItNTE3NTg3MjY3NzQ2NDk4NA'},
+{ text: 'Straight Lines', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxNzY4NzUxNzA3MjAzNTItNTE4Mjg5MDEzMDI1MjU2MA'},
+{ text: 'Circle', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxODM4OTI2MjM1MDc5MjgtNTE4ODkwNTA4OTc4NDc2OA'},
+{ text: 'Continuity', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxODk5MDc1ODMwNDAxMzYtNTE5MTkxMjU2OTU1MDg3Mg'},
+{ text: 'Differentiability', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxOTI5MTUwNjI4MDYyNDAtNTE5NDkyMDA0OTMxNjk3Ng'},
+{ text: 'Limits', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUxOTU5MjI1NDI1NzIzNDQtNTIwMDkzNTAwODg0OTE4NA'},
+{ text: 'MOD', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUyMDE5Mzc1MDIxMDQ1NTItNTIwMzk0MjQ4ODYxNTI4OA'},
+{ text: 'AOD', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUyMDQ5NDQ5ODE4NzA2NTYtNTIxMzk2NzQyMTE2ODk2OA'},
+{ text: 'Mathematical Reasoning', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUyMTQ5Njk5MTQ0MjQzMzYtNTIxNjk3NDkwMDkzNTA3Mg'},
+{ text: 'Conic Section', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUyMTc5NzczOTQxOTA0NDAtNTIyODAwMjMyNjc0NDEyMA'},
+{ text: 'Indefinite Integration', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUyMjkwMDQ4MTk5OTk0ODgtNTIzNjAyMjI3Mjc4NzA2NA'},
+{ text: 'Definite Integration', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUyMzcwMjQ3NjYwNDI0MzItNTI0MjAzNzIzMjMxOTI3Mg'},
+{ text: 'Area Under Curve', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUyNDMwMzk3MjU1NzQ2NDAtNTI0OTA1NDY4NTEwNjg0OA'},
+{ text: 'Differential Equations', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUyNTAwNTcxNzgzNjIyMTYtNTI1MzA2NDY1ODEyODMyMA'},
+{ text: 'Vector 3D', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUyNTQwNjcxNTEzODM2ODgtNTI2NjA5NzA3MDQ0ODEwNA'},
+{ text: 'Complex Numbers', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUyNjcwOTk1NjM3MDM0NzItNTI3MzExNDUyMzIzNTY4MA'},
+{ text: 'SOT', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUyNzQxMTcwMTY0OTEwNDgtNTI3ODEyNjk4OTUxMjUyMA'},
+{ text: 'Binomial Theorem', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUyNzkxMjk0ODI3Njc4ODgtNTI4NTE0NDQ0MjMwMDA5Ng'},
+{ text: 'PnC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUyODYxNDY5MzU1NTU0NjQtNTI5MjE2MTg5NTA4NzY3Mg'},
+{ text: 'Probability', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUyOTMxNjQzODgzNDMwNDAtNTI5ODE3Njg1NDYxOTg4MA'}
+                ]
+            },{
+                text: 'Chemistry',
+                subcards: [
+                    { text: 'Mole Concept', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzMDExODQzMzQzODU5ODQtNTMwNTE5NDMwNzQwNzQ1Ng'},
+{ text: 'Atomic Structure', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzMDYxOTY4MDA2NjI4MjQtNTMxMjIxMTc2MDE5NTAzMg'},
+{ text: 'Gaseous State', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzMTMyMTQyNTM0NTA0MDAtNTMxNzIyNDIyNjQ3MTg3Mg'},
+{ text: 'Periodic Table', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzMTgyMjY3MTk3MjcyNDAtNTMyMDIzMTcwNjIzNzk3Ng'},
+{ text: 'Chemical Bonding', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzMjEyMzQxOTk0OTMzNDQtNTMzMjI2MTYyNTMwMjM5Mg'},
+{ text: 'Chemical Equilibrium', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzMzMyNjQxMTg1NTc3NjAtNTMzNDI2NjYxMTgxMzEyOA'},
+{ text: 'Ionic Equilibrium', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzMzUyNjkxMDUwNjg0OTYtNTMzOTI3OTA3ODA4OTk2OA'},
+{ text: 'Coordination Compounds', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzNDAyODE1NzEzNDUzMzYtNTM0NzI5OTAyNDEzMjkxMg'},
+{ text: 'Metallurgy', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzNDgzMDE1MTczODgyODAtNTM1MTMwODk5NzE1NDM4NA'},
+{ text: 'Qualitative Analysis', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzNTIzMTE0OTA0MDk3NTItNTM1MzMxMzk4MzY2NTEyMA'},
+{ text: 'P Block 17-18', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzNTQzMTY0NzY5MjA0ODgtNTM1NDMxNjQ3NjkyMDQ4OA'},
+{ text: 'Chemical Kinetics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzNTUzMTg5NzAxNzU4NTYtNTM1ODMyNjQ0OTk0MTk2MA'},
+{ text: 'Electrochemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzNTkzMjg5NDMxOTczMjgtNTM2MzMzODkxNjIxODgwMA'},
+{ text: 'Qualitative Analysis Cation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzNjQzNDE0MDk0NzQxNjgtNTM2NDM0MTQwOTQ3NDE2OA'},
+{ text: 'Liquid Solutions', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzNjUzNDM5MDI3Mjk1MzYtNTM2OTM1Mzg3NTc1MTAwOA'},
+{ text: 'Surface Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzNzAzNTYzNjkwMDYzNzYtNTM3MTM1ODg2MjI2MTc0NA'},
+{ text: 'S Block', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzNzIzNjEzNTU1MTcxMTItNTM3MzM2Mzg0ODc3MjQ4MA'},
+{ text: 'Solid State', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzNzQzNjYzNDIwMjc4NDgtNTM3ODM3NjMxNTA0OTMyMA'},
+{ text: 'NO Family', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzNzkzNzg4MDgzMDQ2ODgtNTM4MTM4Mzc5NDgxNTQyNA'},
+{ text: 'Thermochemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzODIzODYyODgwNzA3OTItNTM4MjM4NjI4ODA3MDc5Mg'},
+{ text: 'Thermodynamics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzODMzODg3ODEzMjYxNjAtNTM4ODQwMTI0NzYwMzAwMA'},
+{ text: 'BC Family', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzODk0MDM3NDA4NTgzNjgtNTM5MDQwNjIzNDExMzczNg'},
+{ text: 'Redox', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzOTE0MDg3MjczNjkxMDQtNTM5MjQxMTIyMDYyNDQ3Mg'},
+{ text: 'DF Block', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzOTM0MTM3MTM4Nzk4NDAtNTM5NDQxNjIwNzEzNTIwOA'},
+{ text: 'IUPAC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTUzOTc0MjM2ODY5MDEzMTItNTQwMTQzMzY1OTkyMjc4NA'},
+{ text: 'Structural Isomerism', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0MDI0MzYxNTMxNzgxNTItNTQwNzQ0ODYxOTQ1NDk5Mg'},
+{ text: 'GOC 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0MDg0NTExMTI3MTAzNjAtNTQxMzQ2MzU3ODk4NzIwMA'},
+{ text: 'GOC 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0MTQ0NjYwNzIyNDI1NjgtNTQxODQ3NjA0NTI2NDA0MA'},
+{ text: 'Stereoisomerism', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0MTk0Nzg1Mzg1MTk0MDgtNTQyNjQ5NTk5MTMwNjk4NA'},
+{ text: 'ORM1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0Mjc0OTg0ODQ1NjIzNTItNTQzMTUwODQ1NzU4MzgyNA'},
+{ text: 'ORM2 ', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0MzI1MTA5NTA4MzkxOTItNTQzNTUxODQzMDYwNTI5Ng'},
+{ text: 'Oxidation Reduction', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0MzY1MjA5MjM4NjA2NjQtNTQ0MTUzMzM5MDEzNzUwNA'},
+{ text: 'ORM 3', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0NDI1MzU4ODMzOTI4NzItNTQ0NTU0MzM2MzE1ODk3Ng'},
+{ text: 'OMR 4', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0NDY1NDU4NTY0MTQzNDQtNTQ0ODU1MDg0MjkyNTA4MA'},
+{ text: 'Aromatic Compounds', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0NDk1NTMzMzYxODA0NDgtNTQ1NTU2ODI5NTcxMjY1Ng'},
+{ text: 'Carbonyl Compounds', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0NTY1NzA3ODg5NjgwMjQtNTQ1ODU3NTc3NTQ3ODc2MA'},
+{ text: 'Biomolecules', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0NTk1NzgyNjg3MzQxMjgtNTQ2MzU4ODI0MTc1NTYwMA'},
+{ text: 'Polymers', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0NjQ1OTA3MzUwMTA5NjgtNTQ2NTU5MzIyODI2NjMzNg'},
+{ text: 'Chemistry in Everyday life', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0NjY1OTU3MjE1MjE3MDQtNTQ2NzU5ODIxNDc3NzA3Mg'},
+{ text: 'Environmental Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0Njg2MDA3MDgwMzI0NDAtNTQ3NDYxNTY2NzU2NDY0OA'}
+                ]
+            }
+ ]
+    },
+{
+        text: '𝐂𝐡𝐚𝐦𝐩𝐬 𝟐𝟎𝟐𝟑',
+        secondcards: [
+                  {
+                text: 'Physics',
+                subcards: [
+                    { text: 'Lectures', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU0NzY2MjA2NTQwNzUzODQtNTUyNTc0MjgyMzU4ODQxNg'},
+{ text: 'Notes & Dpps', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU1Mjc3NDc4MTAwOTkxNTItNTYzMzAwOTYwMTkxMjc5Mg'},
+{ text: 'Nichod Short notes', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU2MzQwMTIwOTUxNjgxNjAtNTY1OTA3NDQyNjU1MjM2MA'}
+                ]
+            },{
+                text: 'Chemistry',
+                subcards: [
+                    { text: 'Lectures', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU2NjIwODE5MDYzMTg0NjQtNTcxNDIxMTU1NTU5NzYwMA'},
+{ text: 'Notes & Dpps', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU3MTUyMTQwNDg4NTI5NjgtNTc5MjQwNjAyOTUxNjMwNA'},
+{ text: 'Questions & Short notes ', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU3OTQ0MTEwMTYwMjcwNDAtNTg0NzU0MzE1ODU2MTU0NA'}
+                ]
+            },{
+                text: 'Maths',
+                subcards: [
+                    { text: 'Lectures ', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU4NTA1NTA2MzgzMjc2NDgtNTkwMDY3NTMwMTA5NjA0OA'},
+{ text: 'Notes & Dpps', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU5MDE2Nzc3OTQzNTE0MTYtNTk3ODg2OTc3NTAxNDc1Mg'},
+{ text: 'Questions & Short notes', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTU5ODA4NzQ3NjE1MjU0ODgtNjAzMjAwMTkxNzU0OTI1Ng'}
+                ]
+            }
+ ]
+    },
+{
+        text: '𝐂𝐀𝐓𝐒 𝟐𝟎𝟐𝟑',
+        secondcards: [
+                  {
+                text: 'Physics',
+                subcards: [
+                    { text: 'Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTYwMzUwMDkzOTczMTUzNjAtNjA2NDA4MTcwMTcyMTAzMg'}
+                ]
+            },{
+                text: 'Chemistry',
+                subcards: [
+                    { text: 'Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTYwNjUwODQxOTQ5NzY0MDAtNjA5NDE1NjQ5OTM4MjA3Mg'}
+                ]
+            },{
+                text: 'Maths',
+                subcards: [
+                    { text: 'Maths', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTYwOTUxNTg5OTI2Mzc0NDAtNjEyMjIyNjMxMDUzMjM3Ng'}
+                ]
+            },{
+                text: 'Cats Offline Tests',
+                subcards: [
+                    { text: 'Cats Offline Tests', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTYxMjMyMjg4MDM3ODc3NDQtNjE4NTM4MzM4NTYyMDU2MA'}
+                ]
+            }
+ ]
+    },
+{
+        text: '𝐂𝐀𝐓𝐒 𝐏𝐥𝐮𝐬',
+        secondcards: [
+                  {
+                text: 'Physics',
+                subcards: [
+                    { text: 'Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTYxODgzOTA4NjUzODY2NjQtNjIwNTQzMzI1MDcyNzkyMA'}
+                ]
+            },{
+                text: 'Chemistry',
+                subcards: [
+                    { text: 'Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTYyMDY0MzU3NDM5ODMyODgtNjIyMzQ3ODEyOTMyNDU0NA'}
+                ]
+            },{
+                text: 'Maths',
+                subcards: [
+                    { text: 'Maths', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTYyMjQ0ODA2MjI1Nzk5MTItNjI0MTUyMzAwNzkyMTE2OA'}
+                ]
+            },{
+                text: 'Tests',
+                subcards: [
+                    { text: 'Cats Plus Tests', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTYyNDI1MjU1MDExNzY1MzYtNjI4MjYyNTIzMTM5MTI1Ng'}
+                ]
+            }
+ ]
+    },
+{
+        text: '𝐂 - 𝐂𝐮𝐛𝐞 𝟐𝟎𝟐𝟑',
+        secondcards: [
+                  {
+                text: 'Physics',
+                subcards: [
+                    { text: 'Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTYyODY2MzUyMDQ0MTI3MjgtNjMzNTc1NzM3MzkyNTc2MA'}
+                ]
+            },{
+                text: 'Chemistry',
+                subcards: [
+                    { text: 'Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTYzMzY3NTk4NjcxODExMjgtNjM5NDkwNDQ3NTk5MjQ3Mg'}
+                ]
+            },{
+                text: 'Maths',
+                subcards: [
+                    { text: 'Maths', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTYzOTU5MDY5NjkyNDc4NDAtNjQ0MjAyMTY1ODk5NDc2OA'}
+                ]
+            },{
+                text: 'PDFs',
+                subcards: [
+                    { text: 'PDFs', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTY0NDMwMjQxNTIyNTAxMzYtNjQ1MTA0NDA5ODI5MzA4MA'}
+                ]
+            }
+ ]
+    },
+{
+        text: '𝐏𝐘𝐐 𝐁𝐨𝐨𝐤 𝐒𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬 🎥',
+        secondcards: [
+                  {
+                text: 'Physics',
+                subcards: [
+                    { text: 'PART 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTY0NTMwNDkwODQ4MDM4MTYtNjUxNjIwNjE1OTg5MjAwMA'},
+{ text: 'PART 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTY1MTcyMDg2NTMxNDczNjgtNjU4NjM4MDY4Nzc2Nzc2MA'},
+{ text: 'PART 3', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTY1ODczODMxODEwMjMxMjgtNjY1NjU1NTIxNTY0MzUyMA'},
+{ text: 'PART 4', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTY2NTc1NTc3MDg4OTg4ODgtNjcxNjcwNDgxMDk2NTYwMA'},
+{ text: 'PART 5', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTY3MTc3MDczMDQyMjA5NjgtNjc4Njg3OTMzODg0MTM2MA'},
+{ text: 'PART 6', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTY3ODc4ODE4MzIwOTY3MjgtNjg1NzA1Mzg2NjcxNzEyMA'},
+{ text: 'PART 7', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTY4NTgwNTYzNTk5NzI0ODgtNjkxNzIwMzQ2MjAzOTIwMA'},
+{ text: 'PART 8', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTY5MTgyMDU5NTUyOTQ1NjgtNjk4NzM3Nzk4OTkxNDk2MA'},
+{ text: 'PART 9', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTY5ODgzODA0ODMxNzAzMjgtNzA1NzU1MjUxNzc5MDcyMA'},
+{ text: 'PART 10', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTcwNTg1NTUwMTEwNDYwODgtNzExNzcwMjExMzExMjgwMA'},
+{ text: 'PART 11', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTcxMTg3MDQ2MDYzNjgxNjgtNzE4Nzg3NjY0MDk4ODU2MA'},
+{ text: 'PART 12', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTcxODg4NzkxMzQyNDM5MjgtNzI1ODA1MTE2ODg2NDMyMA'},
+{ text: 'PART 13', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTcyNTkwNTM2NjIxMTk2ODgtNzMwODE3NTgzMTYzMjcyMA'},
+{ text: 'PART 14', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTczMDkxNzgzMjQ4ODgwODgtNzM1NDI5MDUyMTM3OTY0OA'}
+                ]
+            },{
+                text: 'Chemistry',
+                subcards: [
+                    { text: 'PART 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTczNTUyOTMwMTQ2MzUwMTYtNzQxODQ1MDA4OTcyMzIwMA'},
+{ text: 'PART 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTc0MTk0NTI1ODI5Nzg1NjgtNzQ4ODYyNDYxNzU5ODk2MA'},
+{ text: 'PART 3', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTc0ODk2MjcxMTA4NTQzMjgtNzU1ODc5OTE0NTQ3NDcyMA'},
+{ text: 'PART 4', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTc1NTk4MDE2Mzg3MzAwODgtNzYxODk0ODc0MDc5NjgwMA'},
+{ text: 'PART 5', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTc2MTk5NTEyMzQwNTIxNjgtNzY4OTEyMzI2ODY3MjU2MA'},
+{ text: 'PART 6', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTc2OTAxMjU3NjE5Mjc5MjgtNzc1OTI5Nzc5NjU0ODMyMA'},
+{ text: 'PART 7', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTc3NjAzMDAyODk4MDM2ODgtNzgxOTQ0NzM5MTg3MDQwMA'},
+{ text: 'PART 8', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTc4MjA0NDk4ODUxMjU3NjgtNzg4OTYyMTkxOTc0NjE2MA'},
+{ text: 'PART 9', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTc4OTA2MjQ0MTMwMDE1MjgtNzk1OTc5NjQ0NzYyMTkyMA'},
+{ text: 'PART 10', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTc5NjA3OTg5NDA4NzcyODgtODAxOTk0NjA0Mjk0NDAwMA'},
+{ text: 'PART 11', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTgwMjA5NDg1MzYxOTkzNjgtODA5MDEyMDU3MDgxOTc2MA'},
+{ text: 'PART 12', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTgwOTExMjMwNjQwNzUxMjgtODE2MDI5NTA5ODY5NTUyMA'},
+{ text: 'PART 13', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTgxNjEyOTc1OTE5NTA4ODgtODIxMDQxOTc2MTQ2MzkyMA'},
+{ text: 'PART 14', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTgyMTE0MjIyNTQ3MTkyODgtODI1MzUyNjk3MTQ0NDc0NA'}
+                ]
+            },{
+                text: 'Maths',
+                subcards: [
+                    { text: 'PART 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTgyNTQ1Mjk0NjQ3MDAxMTItODMyMDY5NDAxOTU1NDQwMA'},
+{ text: 'PART 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTgzMjE2OTY1MTI4MDk3NjgtODM5MDg2ODU0NzQzMDE2MA'},
+{ text: 'PART 3', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTgzOTE4NzEwNDA2ODU1MjgtODQ2MTA0MzA3NTMwNTkyMA'},
+{ text: 'PART 4', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTg0NjIwNDU1Njg1NjEyODgtODUyMTE5MjY3MDYyODAwMA'},
+{ text: 'PART 5', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTg1MjIxOTUxNjM4ODMzNjgtODU5MTM2NzE5ODUwMzc2MA'},
+{ text: 'PART 6', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTg1OTIzNjk2OTE3NTkxMjgtODY2MTU0MTcyNjM3OTUyMA'},
+{ text: 'PART 7', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTg2NjI1NDQyMTk2MzQ4ODgtODcyMTY5MTMyMTcwMTYwMA'},
+{ text: 'PART 8', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTg3MjI2OTM4MTQ5NTY5NjgtODc5MTg2NTg0OTU3NzM2MA'},
+{ text: 'PART 9', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTg3OTI4NjgzNDI4MzI3MjgtODg2MjA0MDM3NzQ1MzEyMA'},
+{ text: 'PART 10', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTg4NjMwNDI4NzA3MDg0ODgtODkyMjE4OTk3Mjc3NTIwMA'},
+{ text: 'PART 11', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTg5MjMxOTI0NjYwMzA1NjgtODk5MjM2NDUwMDY1MDk2MA'},
+{ text: 'PART 12', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTg5OTMzNjY5OTM5MDYzMjgtOTA2MjUzOTAyODUyNjcyMA'},
+{ text: 'PART 13', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTkwNjM1NDE1MjE3ODIwODgtOTEyMjY4ODYyMzg0ODgwMA'},
+{ text: 'PART 14', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTkxMjM2OTExMTcxMDQxNjgtOTE3NzgyNTc1Mjg5NDA0MA'}
+                ]
+            }
+ ]
+    },
+{
+        text: '𝐓𝐲𝐚𝐠𝐢 𝐌𝐞𝐧𝐭𝐨𝐫𝐬𝐡𝐢𝐩',
+        secondcards: [
+                  {
+                text: 'Tyagi Mentorship',
+                subcards: [
+                    { text: 'Tyagi Mentorship', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTkxNzg4MjgyNDYxNDk0MDgtOTIxNDkxODAwMzM0MjY1Ng'}
+                ]
+            }
+ ]
+    },
+{
+        text: '𝐂𝐀𝐏𝐒 𝐓𝐞𝐱𝐭 𝐒𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬',
+        secondcards: [
+                  {
+                text: 'Caps Text Solutions',
+                subcards: [
+                    { text: 'PART 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTkyMTc5MjU0ODMxMDg3NjAtOTI3MzA2MjYxMjE1NDAwMA'},
+{ text: 'PART 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTkyNzQwNjUxMDU0MDkzNjgtOTMzOTIyNzE2NzAwODI4OA'}
+                ]
+            }
+ ]
+    },
+{
+        text: '𝐏𝐫𝐚𝐯𝐞𝐞𝐧 𝐃𝐫𝐨𝐩𝐩𝐞𝐫 𝐒𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬',
+        secondcards: [
+                  {
+                text: 'Sheet Solution PDFs',
+                subcards: [
+                    { text: 'PART 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE4MzI4NTg0MTg3ODkzMTQ0LTE4NDA1Nzc2MTY4NTU2NDgw'},
+{ text: 'PART 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE4NDA2Nzc4NjYxODExODQ4LTE4NDk3MDAzMDU0Nzk0OTY4'}
+                ]
+            },{
+                text: 'DPP Text Solutions',
+                subcards: [
+                    { text: 'PART 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE4NDk4MDA1NTQ4MDUwMzM2LTE4NTY2MTc1MDg5NDE1MzYw'},
+{ text: 'PART 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE4NTY3MTc3NTgyNjcwNzI4LTE4NjQ2Mzc0NTQ5ODQ0ODAw'},
+{ text: 'PART 3', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE4NjQ3Mzc3MDQzMTAwMTY4LTE4Njk0NDk0MjI2MTAyNDY0'}
+                ]
+            },{
+                text: 'DPP Video Sol',
+                subcards: [
+                    { text: 'Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE4Njk1NDk2NzE5MzU3ODMyLTE4NzU0NjQzODIxNDI0NTQ0'},
+{ text: 'Maths', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE4NzU1NjQ2MzE0Njc5OTEyLTE4ODA4Nzc4NDU3MjE0NDE2'},
+{ text: 'Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE4ODA5NzgwOTUwNDY5Nzg0LTE4ODc3OTUwNDkxODM0ODA4'}
+                ]
+            },{
+                text: '(Maths) Sheet Video Solutions',
+                subcards: [
+                    { text: 'PART 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE4ODc4OTUyOTg1MDkwMTc2LTE4OTQ3MTIyNTI2NDU1MjAw'},
+{ text: 'PART 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE4OTQ4MTI1MDE5NzEwNTY4LTE5MDI3MzIxOTg2ODg0NjQw'},
+{ text: 'PART 3', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5MDI4MzI0NDgwMTQwMDA4LTE5MTA3NTIxNDQ3MzE0MDgw'}
+                ]
+            },{
+                text: '(Chemistry) Sheet Video Solutions',
+                subcards: [
+                    { text: 'PART 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5MTA4NTIzOTQwNTY5NDQ4LTE5MTc3Njk1OTc1MTg5ODQw'},
+{ text: 'PART 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5MTc4Njk4NDY4NDQ1MjA4LTE5MjQ3ODcwNTAzMDY1NjAw'},
+{ text: 'PART 3', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5MjQ4ODcyOTk2MzIwOTY4LTE5MzAxMDAyNjQ1NjAwMTA0'}
+                ]
+            },{
+                text: '(Physics) Sheet Video Solutions',
+                subcards: [
+                    { text: 'PART 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5MzAyMDA1MTM4ODU1NDcyLTE5Mzc4MTk0NjI2MjYzNDQw'},
+{ text: 'PART 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5Mzc5MTk3MTE5NTE4ODA4LTE5NDQ4MzY5MTU0MTM5MjAw'},
+{ text: 'PART 3', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NDQ5MzcxNjQ3Mzk0NTY4LTE5NDkxNDc2MzY0MTIwMDI0'}
+                ]
+            }
+ ]
+    },
+{
+        text: '𝐒𝐭𝐮𝐝𝐲 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥 (𝐙𝐈𝐏)',
+        secondcards: [
+                  {
+                text: 'Praveen Dropper Materials and Notes 2023-24',
+                subcards: [
+                    { text: 'Praveen Dropper Materials and Notes 2023-24', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NDkzNDgxMzUwNjMwNzYwLTE5NDk2NDg4ODMwMzk2ODY0'}
+                ]
+            },{
+                text: 'Board Lectures notes and PYQ (12th)',
+                subcards: [
+                    { text: 'Board Lectures notes and PYQ (12th) zip', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NDk3NDkxMzIzNjUyMjMyLTE5NDk5NDk2MzEwMTYyOTY4'}
+                ]
+            },{
+                text: 'Fastlane Notes 2022-23',
+                subcards: [
+                    { text: 'Fastlane Notes 2022-23', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTAxNTAxMjk2NjczNzA0LTE5NTA0NTA4Nzc2NDM5ODA4'}
+                ]
+            },{
+                text: 'Fastlane 2023-24 Notes and Materials',
+                subcards: [
+                    { text: 'Fastlane 2023-24 Notes and Materials', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTA1NTExMjY5Njk1MTc2LTE5NTEwNTIzNzM1OTcyMDE2'}
+                ]
+            },{
+                text: 'Prabal 2023-24 Sheets &Notes',
+                subcards: [
+                    { text: 'Prabal 2023-24 Sheets &Notes', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTEyNTI4NzIyNDgyNzUyLTE5NTIwNTQ4NjY4NTI1Njk2'}
+                ]
+            },{
+                text: 'Pratham 2023-24 Materials',
+                subcards: [
+                    { text: 'Pratham 2023-24 Materials', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTIyNTUzNjU1MDM2NDMyLTE5NTI1NTYxMTM0ODAyNTM2'}
+                ]
+            },{
+                text: 'Prakhar 2023-24 Materials',
+                subcards: [
+                    { text: 'Prakhar 2023-24 Materials', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTI3NTY2MTIxMzEzMjcyLTE5NTMwNTczNjAxMDc5Mzc2'}
+                ]
+            },{
+                text: 'Champ 2023 Materials',
+                subcards: [
+                    { text: 'Champ 2023 Materials', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTMyNTc4NTg3NTkwMTEyLTE5NTM0NTgzNTc0MTAwODQ4'}
+                ]
+            },{
+                text: 'C Cube 2023 Materials',
+                subcards: [
+                    { text: 'C Cube 2023 Materials', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTM1NTg2MDY3MzU2MjE2LTE5NTM2NTg4NTYwNjExNTg0'}
+                ]
+            }
+ ]
+    },
+{
+        text: '𝐏𝐫𝐚𝐭𝐡𝐚𝐦 𝐁𝐚𝐭𝐜𝐡',
+        secondcards: [
+                  {
+                text: 'Physics',
+                subcards: [
+                    { text: 'Rectilinear Motion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTM5NTk2MDQwMzc3Njg4LTE5NTQzNjA2MDEzMzk5MTYw'},
+{ text: 'Projectile Motion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTQ0NjA4NTA2NjU0NTI4LTE5NTQ3NjE1OTg2NDIwNjMy'},
+{ text: 'Relative Motion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTQ4NjE4NDc5Njc2MDAwLTE5NTUyNjI4NDUyNjk3NDcy'},
+{ text: 'Laws of Motion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTUzNjMwOTQ1OTUyODQwLTE5NTYzNjU1ODc4NTA2NTIw'},
+{ text: 'Friction', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTY0NjU4MzcxNzYxODg4LTE5NTY5NjcwODM4MDM4NzI4'},
+{ text: 'Work Power Energy', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTcwNjczMzMxMjk0MDk2LTE5NTc4NjkzMjc3MzM3MDQw'},
+{ text: 'Circular Motion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTc5Njk1NzcwNTkyNDA4LTE5NTg4NzE4MjA5ODkwNzIw'},
+{ text: 'Centre of Mass', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NTg5NzIwNzAzMTQ2MDg4LTE5NTk5NzQ1NjM1Njk5NzY4'},
+{ text: 'Rotation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NjAwNzQ4MTI4OTU1MTM2LTE5NjE0NzgzMDM0NTMwMjg4'},
+{ text: 'SHM', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NjE1Nzg1NTI3Nzg1NjU2LTE5NjIyODAyOTgwNTczMjMy'},
+{ text: 'Fluid Mechanics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NjIzODA1NDczODI4NjAwLTE5NjMwODIyOTI2NjE2MTc2'},
+{ text: 'Viscosity', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NjMxODI1NDE5ODcxNTQ0LTE5NjMyODI3OTEzMTI2OTEy'},
+{ text: 'Elasticity', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NjMzODMwNDA2MzgyMjgwLTE5NjM1ODM1MzkyODkzMDE2'},
+{ text: 'Calorimetry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NjM2ODM3ODg2MTQ4Mzg0LTE5NjM3ODQwMzc5NDAzNzUy'},
+{ text: 'Thermal Expansion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NjM4ODQyODcyNjU5MTIwLTE5NjM5ODQ1MzY1OTE0NDg4'},
+{ text: 'KTG Thermodynamics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NjQwODQ3ODU5MTY5ODU2LTE5NjQ4ODY3ODA1MjEyODAw'},
+{ text: 'Waves on String', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NjQ5ODcwMjk4NDY4MTY4LTE5NjU2ODg3NzUxMjU1NzQ0'},
+{ text: 'Sound Waves', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NjU3ODkwMjQ0NTExMTEyLTE5NjYyOTAyNzEwNzg3OTUy'},
+{ text: 'Surface Tension', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NjYzOTA1MjA0MDQzMzIwLTE5NjY1OTEwMTkwNTU0MDU2'}
+                ]
+            },{
+                text: 'P/I Chemistry',
+                subcards: [
+                    { text: 'Introduction to Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NjY3OTE1MTc3MDY0NzkyLTE5NjY5OTIwMTYzNTc1NTI4'},
+{ text: 'Atomic Structure', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NjcwOTIyNjU2ODMwODk2LTE5Njg1OTYwMDU1NjYxNDE2'},
+{ text: 'Mole Concept', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5Njg2OTYyNTQ4OTE2Nzg0LTE5Njk0OTgyNDk0OTU5NzI4'},
+{ text: 'Periodic Table', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5Njk1OTg0OTg4MjE1MDk2LTE5NzAzMDAyNDQxMDAyNjcy'},
+{ text: 'Gaseous State', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NzA0MDA0OTM0MjU4MDQwLTE5NzE1MDMyMzYwMDY3MDg4'},
+{ text: 'Chemical Bonding', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NzE2MDM0ODUzMzIyNDU2LTE5NzMyMDc0NzQ1NDA4MzQ0'},
+{ text: 'Chemical Equilibrium', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NzMzMDc3MjM4NjYzNzEyLTE5NzM4MDg5NzA0OTQwNTUy'},
+{ text: 'Thermodynamics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NzM5MDkyMTk4MTk1OTIwLTE5NzQ3MTEyMTQ0MjM4ODY0'},
+{ text: 'Ionic Equilibrium', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NzQ4MTE0NjM3NDk0MjMyLTE5NzYxMTQ3MDQ5ODE0MDE2'},
+{ text: 'Redox', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NzYyMTQ5NTQzMDY5Mzg0LTE5NzY1MTU3MDIyODM1NDg4'},
+{ text: 'S Block', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NzY2MTU5NTE2MDkwODU2LTE5NzY4MTY0NTAyNjAxNTky'},
+{ text: 'P Block & Hydrogen', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NzY5MTY2OTk1ODU2OTYwLTE5NzczMTc2OTY4ODc4NDMy'}
+                ]
+            },{
+                text: 'Organic',
+                subcards: [
+                    { text: 'IUPAC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5Nzc1MTgxOTU1Mzg5MTY4LTE5NzkxMjIxODQ3NDc1MDU2'},
+{ text: 'Structure Identification & POC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5NzkyMjI0MzQwNzMwNDI0LTE5ODAyMjQ5MjczMjg0MTA0'},
+{ text: 'GOC 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5ODAzMjUxNzY2NTM5NDcyLTE5ODA5MjY2NzI2MDcxNjgw'},
+{ text: 'GOC 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5ODEwMjY5MjE5MzI3MDQ4LTE5ODE2Mjg0MTc4ODU5MjU2'},
+{ text: 'Hydrocarbon', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5ODE3Mjg2NjcyMTE0NjI0LTE5ODI1MzA2NjE4MTU3NTY4'},
+{ text: 'Environmental Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5ODI2MzA5MTExNDEyOTM2LTE5ODI3MzExNjA0NjY4MzA0'}
+                ]
+            },{
+                text: 'Maths',
+                subcards: [
+                    { text: 'Sets', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5ODI5MzE2NTkxMTc5MDQwLTE5ODMxMzIxNTc3Njg5Nzc2'},
+{ text: 'FOM', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5ODMyMzI0MDcwOTQ1MTQ0LTE5ODQ0MzUzOTkwMDA5NTYw'},
+{ text: 'Quadratic Equation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5ODQ1MzU2NDgzMjY0OTI4LTE5ODU0Mzc4OTIyNTYzMjQw'},
+{ text: 'Trigonometry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5ODU1MzgxNDE1ODE4NjA4LTE5ODY2NDA4ODQxNjI3NjU2'},
+{ text: 'Sequence Progression', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5ODY3NDExMzM0ODgzMDI0LTE5ODc1NDMxMjgwOTI1OTY4'},
+{ text: 'Binomial Theorem', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5ODc2NDMzNzc0MTgxMzM2LTE5ODg1NDU2MjEzNDc5NjQ4'},
+{ text: 'PnC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5ODg2NDU4NzA2NzM1MDE2LTE5ODk2NDgzNjM5Mjg4Njk2'},
+{ text: 'Straight Lines', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5ODk3NDg2MTMyNTQ0MDY0LTE5OTA1NTA2MDc4NTg3MDA4'},
+{ text: 'Mathematical Reasoning', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5OTA2NTA4NTcxODQyMzc2LTE5OTA3NTExMDY1MDk3NzQ0'},
+{ text: 'Circle', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5OTA4NTEzNTU4MzUzMTEyLTE5OTE2NTMzNTA0Mzk2MDU2'},
+{ text: 'SOT', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5OTE3NTM1OTk3NjUxNDI0LTE5OTIyNTQ4NDYzOTI4MjY0'},
+{ text: 'Conic Section', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5OTIzNTUwOTU3MTgzNjMyLTE5OTM0NTc4MzgyOTkyNjgw'},
+{ text: 'Statistics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5OTM1NTgwODc2MjQ4MDQ4LTE5OTM3NTg1ODYyNzU4Nzg0'}
+                ]
+            },{
+                text: 'DPP Video Solutions',
+                subcards: [
+                    { text: 'Physics DPP', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTE5OTM5NTkwODQ5MjY5NTIwLTE5OTk5NzQwNDQ0NTkxNjAw'},
+{ text: 'Ioc /Pc DPP', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwMDAwNzQyOTM3ODQ2OTY4LTIwMDU4ODg3NTQ2NjU4MzEy'},
+{ text: 'Organic DPP', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwMDU5ODkwMDM5OTEzNjgwLTIwMDgyOTQ3Mzg0Nzg3MTQ0'},
+{ text: 'Maths DPP', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwMDgzOTQ5ODc4MDQyNTEyLTIwMTMwMDY0NTY3Nzg5NDQw'}
+                ]
+            },{
+                text: 'Sheet Solution (Video)',
+                subcards: [
+                    { text: 'Physics(Part 1)', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwMTMzMDcyMDQ3NTU1NTQ0LTIwMjAwMjM5MDk1NjY1MjAw'},
+{ text: 'Physics(Part 2)', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwMjAxMjQxNTg4OTIwNTY4LTIwMjU1Mzc2MjI0NzEwNDQw'},
+{ text: 'IOC/PC (PART 1)', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwMjU2Mzc4NzE3OTY1ODA4LTIwMzEwNTEzMzUzNzU1Njgw'},
+{ text: 'IOC/PC (PART 2)', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwMzExNTE1ODQ3MDExMDQ4LTIwMzU2NjI4MDQzNTAyNjA4'},
+{ text: 'OC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwMzU3NjMwNTM2NzU3OTc2LTIwMzg3NzA1MzM0NDE5MDE2'},
+{ text: 'MATHS PART 1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwMzg4NzA3ODI3Njc0Mzg0LTIwNDUwODYyNDA5NTA3MjAw'},
+{ text: 'MATHS PART 2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNDUxODY0OTAyNzYyNTY4LTIwNTI3MDUxODk2OTE1MTY4'}
+                ]
+            }
+ ]
+    },
+{
+        text: '𝐏𝐑𝐀𝐊𝐇𝐀𝐑 𝐁𝐀𝐓𝐂𝐇',
+        secondcards: [
+                  {
+                text: 'Maths',
+                subcards: [
+                    { text: 'Functions', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNTI5MDU2ODgzNDI1OTA0LTIwNTQ2MDk5MjY4NzY3MTYw'},
+{ text: 'ITF', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNTQ3MTAxNzYyMDIyNTI4LTIwNTUwMTA5MjQxNzg4NjMy'},
+{ text: 'Limits', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNTUxMTExNzM1MDQ0MDAwLTIwNTU3MTI2Njk0NTc2MjA4'},
+{ text: 'Continuity Differentiability', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNTU4MTI5MTg3ODMxNTc2LTIwNTY0MTQ0MTQ3MzYzNzg0'},
+{ text: 'MOD', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNTY1MTQ2NjQwNjE5MTUyLTIwNTY5MTU2NjEzNjQwNjI0'},
+{ text: 'AOD', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNTcwMTU5MTA2ODk1OTkyLTIwNTg0MTk0MDEyNDcxMTQ0'},
+{ text: 'LPP', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNTg1MTk2NTA1NzI2NTEyLTIwNTg2MTk4OTk4OTgxODgw'},
+{ text: 'Determinants', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNTg3MjAxNDkyMjM3MjQ4LTIwNTkwMjA4OTcyMDAzMzUy'},
+{ text: 'Matrices', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNTkxMjExNDY1MjU4NzIwLTIwNTk3MjI2NDI0NzkwOTI4'},
+{ text: 'Indefinite Integration', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNTk4MjI4OTE4MDQ2Mjk2LTIwNjA1MjQ2MzcwODMzODcy'},
+{ text: 'Definite Integration', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNjA2MjQ4ODY0MDg5MjQwLTIwNjEyMjYzODIzNjIxNDQ4'},
+{ text: 'AUC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNjEzMjY2MzE2ODc2ODE2LTIwNjE1MjcxMzAzMzg3NTUy'},
+{ text: 'Differential Equations', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNjE2MjczNzk2NjQyOTIwLTIwNjIxMjg2MjYyOTE5NzYw'},
+{ text: 'Probability', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNjIyMjg4NzU2MTc1MTI4LTIwNjI5MzA2MjA4OTYyNzA0'},
+{ text: 'Vectors', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNjMwMzA4NzAyMjE4MDcyLTIwNjQzMzQxMTE0NTM3ODU2'},
+{ text: 'Complex Number', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNjQ0MzQzNjA3NzkzMjI0LTIwNjUyMzYzNTUzODM2MTY4'}
+                ]
+            },{
+                text: 'Physics',
+                subcards: [
+                    { text: 'Geometrical Optics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMTc2NjY3NTI2MzkzNjMyLTIxMTk0NzEyNDA0OTkwMjU2'},
+{ text: 'Electrostatics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMTk1NzE0ODk4MjQ1NjI0LTIxMjEzNzU5Nzc2ODQyMjQ4'},
+{ text: 'Gravitation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMjE0NzYyMjcwMDk3NjE2LTIxMjE4NzcyMjQzMTE5MDg4'},
+{ text: 'Current Electricity', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMjE5Nzc0NzM2Mzc0NDU2LTIxMjI5Nzk5NjY4OTI4MTM2'},
+{ text: 'Capacitance', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMjMwODAyMTYyMTgzNTA0LTIxMjQwODI3MDk0NzM3MTg0'},
+{ text: 'EMF (Magnetism)', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMjQxODI5NTg3OTkyNTUyLTIxMjU2ODY2OTg2ODIzMDcy'},
+{ text: 'EMI', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMjU3ODY5NDgwMDc4NDQwLTIxMjY1ODg5NDI2MTIxMzg0'},
+{ text: 'AC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMjY2ODkxOTE5Mzc2NzUyLTIxMjY5ODk5Mzk5MTQyODU2'},
+{ text: 'EMW', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMjcwOTAxODkyMzk4MjI0LTIxMjcwOTAxODkyMzk4MjI0'},
+{ text: 'Wave Optics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMjcxOTA0Mzg1NjUzNTkyLTIxMjc1OTE0MzU4Njc1MDY0'},
+{ text: 'Modern Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMjc2OTE2ODUxOTMwNDMyLTIxMjg0OTM2Nzk3OTczMzc2'},
+{ text: 'Nuclear Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMjg1OTM5MjkxMjI4NzQ0LTIxMjg5OTQ5MjY0MjUwMjE2'},
+{ text: 'Semiconductor', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMjkwOTUxNzU3NTA1NTg0LTIxMjkzOTU5MjM3MjcxNjg4'},
+{ text: 'Communication System', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMjk0OTYxNzMwNTI3MDU2LTIxMjk1OTY0MjIzNzgyNDI0'},
+{ text: 'Errors', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMjk2OTY2NzE3MDM3NzkyLTIxMzAwOTc2NjkwMDU5MjY0'}
+                ]
+            },{
+                text: 'PC/IOC',
+                subcards: [
+                    { text: 'Liquid Solutions', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzAyOTgxNjc2NTcwMDAwLTIxMzA5OTk5MTI5MzU3NTc2'},
+{ text: 'Coordination Compounds', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzExMDAxNjIyNjEyOTQ0LTIxMzIwMDI0MDYxOTExMjU2'},
+{ text: 'Solid State', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzIxMDI2NTU1MTY2NjI0LTIxMzI2MDM5MDIxNDQzNDY0'},
+{ text: 'Electrochemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzI3MDQxNTE0Njk4ODMyLTIxMzM3MDY2NDQ3MjUyNTEy'},
+{ text: 'Metallurgy', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzM4MDY4OTQwNTA3ODgwLTIxMzQyMDc4OTEzNTI5MzUy'},
+{ text: 'Qualitative Analysis Anion', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzQzMDgxNDA2Nzg0NzIwLTIxMzQ3MDkxMzc5ODA2MTky'},
+{ text: 'GIC', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzQ4MDkzODczMDYxNTYwLTIxMzUwMDk4ODU5NTcyMjk2'},
+{ text: 'Nitrogen & Oxygen Family', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzUxMTAxMzUyODI3NjY0LTIxMzU2MTEzODE5MTA0NTA0'},
+{ text: 'P Block', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzU3MTE2MzEyMzU5ODcyLTIxMzU5MTIxMjk4ODcwNjA4'},
+{ text: 'Chemical Kinetics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzYwMTIzNzkyMTI1OTc2LTIxMzY4MTQzNzM4MTY4OTIw'},
+{ text: 'Surface Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzY5MTQ2MjMxNDI0Mjg4LTIxMzcyMTUzNzExMTkwMzky'},
+{ text: 'Qualitative Analysis Cation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzczMTU2MjA0NDQ1NzYwLTIxMzc1MTYxMTkwOTU2NDk2'},
+{ text: 'DF Block', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzc2MTYzNjg0MjExODY0LTIxMzc5MTcxMTYzOTc3OTY4'}
+                ]
+            },{
+                text: 'OC',
+                subcards: [
+                    { text: 'Stereoisomerism', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzgxMTc2MTUwNDg4NzA0LTIxMzk0MjA4NTYyODA4NDg4'},
+{ text: 'ORM1', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMzk1MjExMDU2MDYzODU2LTIxNDAxMjI2MDE1NTk2MDY0'},
+{ text: 'ORM2', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxNDAyMjI4NTA4ODUxNDMyLTIxNDExMjUwOTQ4MTQ5NzQ0'},
+{ text: 'Reduction Oxidation', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxNDEyMjUzNDQxNDA1MTEyLTIxNDE4MjY4NDAwOTM3MzIw'},
+{ text: 'ORM3', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxNDE5MjcwODk0MTkyNjg4LTIxNDI0MjgzMzYwNDY5NTI4'},
+{ text: 'ORM 4', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxNDI1Mjg1ODUzNzI0ODk2LTIxNDMwMjk4MzIwMDAxNzM2'},
+{ text: 'Aromatic Compounds', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxNDMxMzAwODEzMjU3MTA0LTIxNDM4MzE4MjY2MDQ0Njgw'},
+{ text: 'Aldehyde Ketones', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxNDM5MzIwNzU5MzAwMDQ4LTIxNDQ2MzM4MjEyMDg3NjI0'},
+{ text: 'Biomolecules', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxNDQ3MzQwNzA1MzQyOTkyLTIxNDUxMzUwNjc4MzY0NDY0'},
+{ text: 'Polymers', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxNDUyMzUzMTcxNjE5ODMyLTIxNDUzMzU1NjY0ODc1MjAw'},
+{ text: 'Chemistry in Everyday Life', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxNDU0MzU4MTU4MTMwNTY4LTIxNDU1MzYwNjUxMzg1OTM2'}
+                ]
+            }
+ ]
+    },
+{
+        text: '𝐂 - 𝐂𝐮𝐛𝐞 𝟐𝟎𝟐𝟒',
+        secondcards: [
+                  {
+                text: 'Physics',
+                subcards: [
+                    { text: 'Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNjU1MzcxMDMzNjAyMjcyLTIwNzI2NTQ4MDU0NzMzNDAw'}
+                ]
+            },{
+                text: 'Chemistry',
+                subcards: [
+                    { text: 'Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNzI4NTUzMDQxMjQ0MTM2LTIwNzg4NzAyNjM2NTY2MjE2'}
+                ]
+            },{
+                text: 'Maths',
+                subcards: [
+                    { text: 'Maths', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwNzkwNzA3NjIzMDc2OTUyLTIwODYxODg0NjQ0MjA4MDgw'}
+                ]
+            },{
+                text: 'Practice Sessions',
+                subcards: [
+                    { text: 'Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwODYzODg5NjMwNzE4ODE2LTIwODg4OTUxOTYyMTAzMDE2'},
+{ text: 'Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwODg5OTU0NDU1MzU4Mzg0LTIwOTE4MDI0MjY2NTA4Njg4'},
+{ text: 'Maths', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwOTE5MDI2NzU5NzY0MDU2LTIwOTQxMDgxNjExMzgyMTUy'}
+                ]
+            }
+ ]
+    },
+{
+        text: '𝐂𝐇𝐀𝐌𝐏 𝐂 - 𝐒𝐐𝐔𝐀𝐑𝐄',
+        secondcards: [
+                  {
+                text: 'Physics',
+                subcards: [
+                    { text: 'Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwOTQzMDg2NTk3ODkyODg4LTIwOTkzMjExMjYwNjYxMjg4'}
+                ]
+            },{
+                text: 'Chemistry',
+                subcards: [
+                    { text: 'Chemistry ', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIwOTk0MjEzNzUzOTE2NjU2LTIxMDQ1MzQwOTA5OTQwNDI0'}
+                ]
+            },{
+                text: 'Maths',
+                subcards: [
+                    { text: 'Maths', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMDQ2MzQzNDAzMTk1NzkyLTIxMDk2NDY4MDY1OTY0MTky'}
+                ]
+            }
+ ]
+    },
+{
+        text: '𝐂𝐀𝐓𝐒 𝟐𝟎𝟐𝟒',
+        secondcards: [
+                  {
+                text: 'Physics',
+                subcards: [
+                    { text: 'Physics', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMDk4NDczMDUyNDc0OTI4LTIxMTIzNTM1MzgzODU5MTI4'}
+                ]
+            },{
+                text: 'Chemistry',
+                subcards: [
+                    { text: 'Chemistry', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMTI0NTM3ODc3MTE0NDk2LTIxMTQ5NjAwMjA4NDk4Njk2'}
+                ]
+            },{
+                text: 'Maths',
+                subcards: [
+                    { text: 'Maths', url: 'https://comp-esar.github.io/kompkabhosda/?token=Z2V0LTIxMTUwNjAyNzAxNzU0MDY0LTIxMTc0NjYyNTM5ODgyODk2'}
+                ]
+            }
+ ]
+    }
+];
+
+function createCard(cardData, isSecondCard = false) {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+        ${cardData.text}
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="${isSecondCard ? '#FF0000' : '#FF0000'}" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+        </svg>
+    `;
+
+    if (isSecondCard) {
+        card.classList.add('second-card');
+        card.addEventListener('click', function () {
+            const subcards = this.nextElementSibling;
+            if (subcards.style.display === 'none' || subcards.style.display === '') {
+                subcards.style.display = 'block';
+            } else {
+                subcards.style.display = 'none';
+            }
+        });
+    } else {
+        card.addEventListener('click', function () {
+            const secondCards = this.nextElementSibling;
+            if (secondCards.style.display === 'none' || secondCards.style.display === '') {
+                secondCards.style.display = 'block';
+            } else {
+                secondCards.style.display = 'none';
+            }
+        });
+    }
+
+    const subcardsContainer = document.createElement('div');
+    subcardsContainer.className = 'subcards';
+
+    cardData.subcards?.forEach(subcardData => {
+        const subcard = document.createElement('div');
+        subcard.className = 'subcard';
+        subcard.innerHTML = `
+            ${subcardData.text}
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#00FFFF" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                <path d="M4.715 6.542a3.025 3.025 0 0 1 0-4.27l1.795-1.796a3.025 3.025 0 0 1 4.271 0l1.795 1.796a3.025 3.025 0 0 1 0 4.27l-.69.691a.5.5 0 1 1-.708-.708l.69-.691a2.025 2.025 0 0 0 0-2.855L10.06 2.12a2.025 2.025 0 0 0-2.855 0L5.412 3.915a2.025 2.025 0 0 0 0 2.855.5.5 0 0 1-.707.707ZM11.284 9.457a3.025 3.025 0 0 1 0 4.271l-1.796 1.795a3.025 3.025 0 0 1-4.27 0L3.923 13.73a3.025 3.025 0 0 1 0-4.271l.69-.69a.5.5 0 0 1 .707.707l-.69.69a2.025 2.025 0 0 0 0 2.855l1.795 1.795a2.025 2.025 0 0 0 2.855 0l1.796-1.795a2.025 2.025 0 0 0 0-2.855.5.5 0 1 1 .707-.707Z"/>
+            </svg>
+        `;
+        subcard.addEventListener('click', () => window.open(subcardData.url, '_blank'));
+        subcardsContainer.appendChild(subcard);
+    });
+
+    cardData.secondcards?.forEach(secondCardData => {
+        const secondCard = createCard(secondCardData, true);
+        subcardsContainer.appendChild(secondCard);
+    });
+
+    const container = document.createElement('div');
+    container.appendChild(card);
+    container.appendChild(subcardsContainer);
+
+    return container;
+}
+
+function initializeCards() {
+    const cardsContainer = document.getElementById('cards-container');
+    firstcardsData.forEach(cardData => {
+        const card = createCard(cardData);
+        cardsContainer.appendChild(card);
+    });
+}
+
+initializeCards();
+</script>
+	<div>
+<p style="color: #2C3438; font-size:16px;">𝗡𝗢𝗧𝗘 :- 𝐍𝐨 𝐚𝐧𝐲 𝐂𝐨𝐚𝐜𝐡𝐢𝐧𝐠 𝐡𝐚𝐫𝐦𝐞𝐝 𝐢𝐟 𝐬𝐭𝐢𝐥𝐥 𝐚𝐧𝐲 𝐩𝐫𝐨𝐛𝐥𝐞𝐦 𝐑𝐞𝐥𝐚𝐭𝐞𝐝 𝐭𝐨 𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 𝐭𝐡𝐞𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐞 𝐨𝐧 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐈 𝐑𝐞𝐦𝐨𝐯𝐞 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐨𝐫 𝐃𝐨𝐰𝐧 𝐭𝐡𝐢𝐬 𝐰𝐞𝐛𝐬𝐢𝐭𝐞 . 𝐒𝐨, 𝙞𝙛 𝙮𝙤𝙪 𝙝𝙖𝙫𝙚 𝙖𝙣𝙮 𝙥𝙧𝙤𝙗𝙡𝙚𝙢 𝙟𝙪𝙨𝙩 𝙘𝙤𝙣𝙩𝙖𝙘𝙩 𝙢𝙚 🙏🙏</p>
+<div style="display: flex; justify-content: center; height: 5vh;"> <button style="background-color:#FF0042; color:white; padding:5px 30px; font-size:16px; border-radius: 20px;"><a href="https://t.me/team_hiddens_bot" style="color:white; text-decoration:none;">𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗨𝗦 🙏🙏</a></button> </div>
+</body>
+</html>
